@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Text is blank</description>
+   <name>TC-ContactUs-010</name>
+   <tag>Poruka je obavezna</tag>
+   <comment></comment>
+   <testCaseGuid>aecdb944-dd09-4c44-92c4-d16040701504</testCaseGuid>
+</TestCaseEntity>

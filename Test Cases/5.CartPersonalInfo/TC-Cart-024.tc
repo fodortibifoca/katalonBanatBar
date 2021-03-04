@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Personal info: Email is invalid</description>
+   <name>TC-Cart-024</name>
+   <tag>Email invalid</tag>
+   <comment></comment>
+   <testCaseGuid>958e3716-4cd9-4cef-8200-9fb06c6ae1da</testCaseGuid>
+</TestCaseEntity>

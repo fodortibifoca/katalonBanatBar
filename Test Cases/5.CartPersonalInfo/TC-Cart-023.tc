@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Last name: numbers and special caracters</description>
+   <name>TC-Cart-023</name>
+   <tag>Last name invalid</tag>
+   <comment></comment>
+   <testCaseGuid>56478684-541e-4837-9adb-f453f310b5a0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Personal info: Name is writen with numbers and special caracters</description>
+   <name>TC-Cart-022</name>
+   <tag>First Name invalid</tag>
+   <comment></comment>
+   <testCaseGuid>af44717f-c9ec-411a-9554-1576681612b9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>ContactUs</description>
+   <name>ContactUs-Link</name>
+   <tag></tag>
+   <elementGuidId>548227aa-a548-442c-aade-f53acbc29a52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//nav[@class='nav-expanded-menu']//a[@href='/en/contact']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//nav[@class='nav-expanded-menu']//a[@href='/en/contact']</value>
+   </webElementProperties>
+</WebElementEntity>

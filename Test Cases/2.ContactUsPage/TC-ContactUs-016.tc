@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Google map functionality</description>
+   <name>TC-ContactUs-016</name>
+   <tag>Google map</tag>
+   <comment></comment>
+   <testCaseGuid>3979be8e-1756-4c56-9275-2aa481ad1101</testCaseGuid>
+</TestCaseEntity>

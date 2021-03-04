@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menu Link</description>
+   <name>TC-Link-001</name>
+   <tag>Menu</tag>
+   <comment></comment>
+   <testCaseGuid>1ffa9e08-bd26-451a-adfb-5f8a9efc83f2</testCaseGuid>
+</TestCaseEntity>

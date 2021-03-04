@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Info page language</description>
+   <name>TC-SeeMenuAndOrder-020</name>
+   <tag>Language</tag>
+   <comment></comment>
+   <testCaseGuid>696c1ebd-f65b-479d-b0c0-01eb8f9610c7</testCaseGuid>
+</TestCaseEntity>

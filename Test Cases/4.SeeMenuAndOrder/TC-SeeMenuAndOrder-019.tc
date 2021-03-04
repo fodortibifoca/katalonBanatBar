@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check personal info afte cash is deleted</description>
+   <name>TC-SeeMenuAndOrder-019</name>
+   <tag>Personal info</tag>
+   <comment></comment>
+   <testCaseGuid>56693056-9b17-4a9e-9508-2dd79f36e118</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TableReservation link</description>
+   <name>TC-Link-004</name>
+   <tag>TableReservation</tag>
+   <comment></comment>
+   <testCaseGuid>8322641c-7785-4654-baa9-f347a6fdc5d0</testCaseGuid>
+</TestCaseEntity>

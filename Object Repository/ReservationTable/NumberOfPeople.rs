@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>People</description>
+   <name>NumberOfPeople</name>
+   <tag></tag>
+   <elementGuidId>fbbc9052-a044-43a1-8edb-d886addd3e68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select</value>
+   </webElementProperties>
+</WebElementEntity>

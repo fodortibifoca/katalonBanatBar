@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test 'TableReservation' page functionality</description>
+   <name>TC-TableReservation-018</name>
+   <tag>Table Reservation</tag>
+   <comment></comment>
+   <testCaseGuid>c9bef07e-fbe9-4384-8c70-8ef1ddd2e44f</testCaseGuid>
+</TestCaseEntity>

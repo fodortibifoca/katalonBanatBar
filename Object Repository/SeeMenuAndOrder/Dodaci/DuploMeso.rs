@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>DoubleMeat</description>
+   <name>DuploMeso</name>
+   <tag></tag>
+   <elementGuidId>69095c30-fbc1-4fdb-971b-f56e8409bd5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons/div[@class='fb-addons']//form[@name='addons']/div[@class='js-error-1404734']/div[@class='cb-wrapper']/div[@class='cb-button']/label/div[@class='options-label-table']/div[@class='options-label-row']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons/div[@class='fb-addons']//form[@name='addons']/div[@class='js-error-1404734']/div[@class='cb-wrapper']/div[@class='cb-button']/label/div[@class='options-label-table']/div[@class='options-label-row']/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

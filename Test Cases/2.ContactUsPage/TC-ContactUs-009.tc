@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Email is blank</description>
+   <name>TC-ContactUs-009</name>
+   <tag>Email je obavezan</tag>
+   <comment></comment>
+   <testCaseGuid>059c542c-6d19-405e-9fb1-a6dbe41279a4</testCaseGuid>
+</TestCaseEntity>

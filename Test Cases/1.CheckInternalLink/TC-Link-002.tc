@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>FoodDelivery Link</description>
+   <name>TC-Link-002</name>
+   <tag>FoodDelivery</tag>
+   <comment></comment>
+   <testCaseGuid>22f99bd2-b581-4626-9365-f5fe7e588103</testCaseGuid>
+</TestCaseEntity>

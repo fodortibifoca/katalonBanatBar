@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>Next</description>
+   <name>Next</name>
+   <tag></tag>
+   <elementGuidId>b0958ea4-9e78-4e6b-a206-9a3dffe75af5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-root/ui-view/app-root-screen/app-footer//div[@class='fb-fixed-footer']/div[1]/div[2]/div[.='Next']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-root/ui-view/app-root-screen/app-footer//div[@class='fb-fixed-footer']/div[1]/div[2]/div[.='Next']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Road map is zoomed out</description>
+   <name>TC-ContactUs-013</name>
+   <tag>ZoomOut</tag>
+   <comment></comment>
+   <testCaseGuid>9a31d196-99e9-4ce9-8118-a2bd71d2b426</testCaseGuid>
+</TestCaseEntity>

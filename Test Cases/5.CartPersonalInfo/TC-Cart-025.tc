@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Personal info: Phone is writen with letters and special caracters</description>
+   <name>TC-Cart-025</name>
+   <tag>Phone is invalid</tag>
+   <comment></comment>
+   <testCaseGuid>f19fb8da-4b6d-4cf6-a240-2d48ed8c9ae7</testCaseGuid>
+</TestCaseEntity>
