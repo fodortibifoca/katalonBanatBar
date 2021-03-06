@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.banatbar.rs/en')
-
-WebUI.waitForPageLoad(GlobalVariable.TimeOut)
-
-WebUI.maximizeWindow()
+CustomKeywords.'com.helper.browserhelper.CustomBrowser.openBrowser'()
 
 WebUI.click(findTestObject('NavigationBar/SeeMenuAndOrder'))
 
@@ -51,7 +47,5 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Close'))
 
-WebUI.switchToDefaultContent()
-
-WebUI.closeBrowser()
+CustomKeywords.'com.helper.browserhelper.CustomBrowser.closeBrowser'()
 
