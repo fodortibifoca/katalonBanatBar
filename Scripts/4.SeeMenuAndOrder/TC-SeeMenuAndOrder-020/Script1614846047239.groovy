@@ -39,6 +39,10 @@ WebUI.selectOptionByLabel(findTestObject('SeeMenuAndOrder/Language'), 'Deutsch',
 
 WebUI.delay(3)
 
+WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Sprachen'), GlobalVariable.TimeOut)
+
+WebUI.verifyElementText(findTestObject('SeeMenuAndOrder/Sprachen'), 'Sprachen')
+
 WebUI.click(findTestObject('SeeMenuAndOrder/Close'))
 
 WebUI.switchToDefaultContent()

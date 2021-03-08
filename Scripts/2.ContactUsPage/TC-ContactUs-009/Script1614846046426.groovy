@@ -27,15 +27,17 @@ WebUI.click(findTestObject('ContactUsPage/ContactUs-Link'))
 
 WebUI.waitForElementVisible(findTestObject('ContactUsPage/Name-Input'), GlobalVariable.TimeOut)
 
-WebUI.setText(findTestObject('ContactUsPage/Name-Input'), 'foti')
+WebUI.setText(findTestObject('ContactUsPage/Name-Input'), GlobalVariable.Name)
 
 WebUI.setText(findTestObject('ContactUsPage/Email-Input'), '')
 
-WebUI.setText(findTestObject('ContactUsPage/TextBox-Input'), 'You are great')
+WebUI.setText(findTestObject('ContactUsPage/TextBox-Input'), GlobalVariable.TextBox)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('ContactUsPage/SubmitBtn'))
+
+WebUI.verifyElementText(findTestObject('ContactUsPage/EmailObavezan'), 'Email je obavezan.')
 
 WebUI.delay(3)
 

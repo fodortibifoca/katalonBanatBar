@@ -43,13 +43,13 @@ WebUI.click(findTestObject('ReservationTable/AddDetails'))
 
 WebUI.waitForElementVisible(findTestObject('ReservationTable/FirstName'), GlobalVariable.TimeOut)
 
-WebUI.setText(findTestObject('ReservationTable/FirstName'), 'foti')
+WebUI.setText(findTestObject('ReservationTable/FirstName'), GlobalVariable.Name)
 
-WebUI.setText(findTestObject('ReservationTable/LastName'), 'tifo')
+WebUI.setText(findTestObject('ReservationTable/LastName'), GlobalVariable.LastName)
 
-WebUI.setText(findTestObject('ReservationTable/E-mail'), 'foti@gmail.com')
+WebUI.setText(findTestObject('ReservationTable/E-mail'), GlobalVariable.Email)
 
-WebUI.setText(findTestObject('ReservationTable/Phone'), '060123456')
+WebUI.setText(findTestObject('ReservationTable/Phone'), GlobalVariable.Phone)
 
 WebUI.click(findTestObject('ReservationTable/SaveBtn'))
 

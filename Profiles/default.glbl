@@ -9,4 +9,34 @@
       <initValue>30</initValue>
       <name>TimeOut</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Correct Name</description>
+      <initValue>'foti'</initValue>
+      <name>Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Correct Last Name</description>
+      <initValue>'tifo'</initValue>
+      <name>LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Correct Email</description>
+      <initValue>'foti@gmail.com'</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Text</description>
+      <initValue>'You are great'</initValue>
+      <name>TextBox</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Email nije validan.</description>
+      <initValue>'fotigmail@com'</initValue>
+      <name>EmailInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Phone valid.</description>
+      <initValue>'060123456'</initValue>
+      <name>Phone</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
