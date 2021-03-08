@@ -55,7 +55,7 @@ WebUI.click(findTestObject('ReservationTable/SaveBtn'))
 
 WebUI.click(findTestObject('ReservationTable/PlaceTableReservationNow'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
