@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test order count</description>
-   <name>TC-SeeMenuAndOrder-021</name>
+   <name>TC-SeeMenuAndOrder-021(verify text)</name>
    <tag>Order count</tag>
    <comment></comment>
    <testCaseGuid>eda8f685-bed3-4b2e-8063-9722301d829e</testCaseGuid>

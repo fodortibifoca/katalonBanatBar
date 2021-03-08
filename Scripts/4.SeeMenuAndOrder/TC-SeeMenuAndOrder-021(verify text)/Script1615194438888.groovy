@@ -31,6 +31,10 @@ WebUI.switchToFrame(findTestObject('SeeMenuAndOrder/iFrame-SeeMenuAndOrder'), Gl
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/BaconBurger'))
 
+WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Dodaci/530'), GlobalVariable.TimeOut)
+
+WebUI.verifyElementText(findTestObject('SeeMenuAndOrder/Dodaci/530'), '530,00 RSD')
+
 WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/Kecap'))
 
 WebUI.delay(3)
@@ -48,6 +52,10 @@ WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/Pice'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/Kolicina'))
+
+WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Dodaci/2.060'), GlobalVariable.TimeOut)
+
+WebUI.verifyElementText(findTestObject('SeeMenuAndOrder/Dodaci/2.060'), '2.060,00 RSD')
 
 WebUI.delay(5)
 

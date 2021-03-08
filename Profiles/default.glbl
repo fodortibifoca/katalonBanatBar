@@ -5,7 +5,7 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
+      <description>GlobalVariable</description>
       <initValue>30</initValue>
       <name>TimeOut</name>
    </GlobalVariableEntity>
