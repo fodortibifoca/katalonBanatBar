@@ -39,7 +39,7 @@ WebUI.click(findTestObject('ContactUsPage/SubmitBtn'))
 
 WebUI.verifyElementText(findTestObject('ContactUsPage/EmailInvalid'), 'Email nije validan.')
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
