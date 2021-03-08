@@ -33,15 +33,17 @@ WebUI.click(findTestObject('SeeMenuAndOrder/AddDetails'))
 
 WebUI.waitForElementPresent(findTestObject('SeeMenuAndOrder/Form/Name'), GlobalVariable.TimeOut)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Name'), 'foti')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Name'), GlobalVariable.Name)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/LastName'), 'tifo')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/LastName'), GlobalVariable.LastName)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Email'), 'foti@gmail.com')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Email'), GlobalVariable.Email)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Phone'), '!a@s#d$f')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Phone'), GlobalVariable.Phone_invalid)
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Form/SaveBtn'))
+
+WebUI.verifyElementText(findTestObject('SeeMenuAndOrder/Form/Please_phone'), 'Please insert a valid phone number.')
 
 WebUI.delay(5)
 

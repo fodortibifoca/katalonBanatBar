@@ -39,4 +39,19 @@
       <initValue>'060123456'</initValue>
       <name>Phone</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid Name</description>
+      <initValue>'@2#3$4'</initValue>
+      <name>Name_invalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid LastName</description>
+      <initValue>'@2#3$4'</initValue>
+      <name>LastName_invalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invalid Phone Number</description>
+      <initValue>'!a@s#d$f'</initValue>
+      <name>Phone_invalid</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

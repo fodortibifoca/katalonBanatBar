@@ -37,13 +37,13 @@ WebUI.click(findTestObject('SeeMenuAndOrder/AddDetails'))
 
 WebUI.waitForElementPresent(findTestObject('SeeMenuAndOrder/Form/Name'), GlobalVariable.TimeOut)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Name'), '@2#3$4')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Name'), GlobalVariable.Name_invalid)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/LastName'), 'tifo')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/LastName'), GlobalVariable.LastName)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Email'), 'foti@gmail.com')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Email'), GlobalVariable.Email)
 
-WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Phone'), '060123456')
+WebUI.setText(findTestObject('SeeMenuAndOrder/Form/Phone'), GlobalVariable.Phone)
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Form/SaveBtn'))
 
