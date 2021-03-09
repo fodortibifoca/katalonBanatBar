@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1.CheckInternalLink" time="73.677" tests="5" failures="0" skips="0" errors="0">
+   <testsuite name="1.CheckInternalLink" tests="5" failures="0" errors="0" time="73.677" skips="0" timestamp="2021-03-09 19:34:08" hostname="joker - DESKTOP-ASL0OOF" id="Test Suites/1.CheckInternalLink">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193402\\1.CheckInternalLink\\20210309_193402"/>
+         <property name="logFiles" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193402\\1.CheckInternalLink\\20210309_193402\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="joker - DESKTOP-ASL0OOF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.190"/>
+         <property name="hostAddress" value="192.168.0.17"/>
+         <property name="sessionId" value="7ec204c1d4837797ab1e10a631e4a8d6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.CheckInternalLink/TC-Link-001" time="19.471" classname="Test Cases/1.CheckInternalLink/TC-Link-001" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:34:10 - [TEST_CASE][PASSED] - Test Cases/1.CheckInternalLink/TC-Link-001: Test Cases/1.CheckInternalLink/TC-Link-001
+
+2021-03-09 19:34:11 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en/"): Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:34:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:34:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:20 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:34:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:34:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:34:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:34:22 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/Menu")): Object: 'Object Repository/NavigationBar/Menu' is clicked on
+
+2021-03-09 19:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/Menu' is clicked on
+
+2021-03-09 19:34:26 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:34:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:34:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:34:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:34:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:34:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.CheckInternalLink/TC-Link-002" time="12.264" classname="Test Cases/1.CheckInternalLink/TC-Link-002" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:34:29 - [TEST_CASE][PASSED] - Test Cases/1.CheckInternalLink/TC-Link-002: Test Cases/1.CheckInternalLink/TC-Link-002
+
+2021-03-09 19:34:30 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en/"): Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:34:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:34:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:36 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:34:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:34:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:34:36 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:34:36 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/FoodDelivery")): Object: 'Object Repository/NavigationBar/FoodDelivery' is clicked on
+
+2021-03-09 19:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/FoodDelivery' is clicked on
+
+2021-03-09 19:34:39 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:34:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:34:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:34:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:34:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:34:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.CheckInternalLink/TC-Link-003" time="10.239" classname="Test Cases/1.CheckInternalLink/TC-Link-003" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:34:42 - [TEST_CASE][PASSED] - Test Cases/1.CheckInternalLink/TC-Link-003: Test Cases/1.CheckInternalLink/TC-Link-003
+
+2021-03-09 19:34:42 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en/"): Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:34:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:34:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:47 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:34:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:34:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:34:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:34:47 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/ContactUs")): Object: 'Object Repository/NavigationBar/ContactUs' is clicked on
+
+2021-03-09 19:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/ContactUs' is clicked on
+
+2021-03-09 19:34:49 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:34:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:34:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:34:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:34:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:34:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.CheckInternalLink/TC-Link-004" time="14.799" classname="Test Cases/1.CheckInternalLink/TC-Link-004" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:34:52 - [TEST_CASE][PASSED] - Test Cases/1.CheckInternalLink/TC-Link-004: Test Cases/1.CheckInternalLink/TC-Link-004
+
+2021-03-09 19:34:52 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en/"): Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:34:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:34:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:34:57 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:34:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:34:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:34:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:34:58 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/TableReservation")): Object: 'Object Repository/NavigationBar/TableReservation' is clicked on
+
+2021-03-09 19:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/TableReservation' is clicked on
+
+2021-03-09 19:34:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("NavigationBar/iFrame-TableReservation"), TimeOut): Object 'Object Repository/NavigationBar/iFrame-TableReservation' is visible
+
+2021-03-09 19:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/iFrame-TableReservation' is visible
+
+2021-03-09 19:35:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:35:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:35:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:35:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.CheckInternalLink/TC-Link-005" time="14.098" classname="Test Cases/1.CheckInternalLink/TC-Link-005" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:35:07 - [TEST_CASE][PASSED] - Test Cases/1.CheckInternalLink/TC-Link-005: Test Cases/1.CheckInternalLink/TC-Link-005
+
+2021-03-09 19:35:07 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en/"): Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:35:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:35:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:35:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en/'
+
+2021-03-09 19:35:12 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:35:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:35:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:35:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:35:12 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/SeeMenuAndOrder")): Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:35:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("NavigationBar/iFrame-SeeMenuAndOrder"), TimeOut): Object 'Object Repository/NavigationBar/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:35:18 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:35:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:35:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:35:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:35:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-09 19:34:08 - [TEST_SUITE][PASSED] - 1.CheckInternalLink: Test Cases/1.CheckInternalLink/TC-Link-005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

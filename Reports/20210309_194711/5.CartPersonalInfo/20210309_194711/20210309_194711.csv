@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+5.CartPersonalInfo,Chrome 88.0.4324.190,,,2021-03-09 19:47:16,2021-03-09 19:48:50,1m - 33.907s,PASSED
+,,,,,,,
+Test Cases/5.CartPersonalInfo/TC-Cart-022,Chrome 88.0.4324.190,Personal info: Name is writen with numbers and special caracters,First Name invalid,2021-03-09 19:47:17,2021-03-09 19:47:43,25.519s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:47:18,2021-03-09 19:47:25,6.381s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:47:25,2021-03-09 19:47:26,0.935s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:47:26,2021-03-09 19:47:26,0.197s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:26,2021-03-09 19:47:26,0.604s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:26,2021-03-09 19:47:31,4.469s,PASSED
+"switchToFrame(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:31,2021-03-09 19:47:32,1.089s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Cart""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:32,2021-03-09 19:47:33,0.774s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/AddDetails""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:33,2021-03-09 19:47:33,0.434s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/AddDetails""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:33,2021-03-09 19:47:34,0.350s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/Form/Name""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:34,2021-03-09 19:47:34,0.474s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Name""), Name_invalid)",Chrome 88.0.4324.190,,,2021-03-09 19:47:34,2021-03-09 19:47:35,0.721s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/LastName""), LastName)",Chrome 88.0.4324.190,,,2021-03-09 19:47:35,2021-03-09 19:47:35,0.540s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Email""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:47:35,2021-03-09 19:47:36,0.537s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Phone""), Phone)",Chrome 88.0.4324.190,,,2021-03-09 19:47:36,2021-03-09 19:47:36,0.525s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Form/SaveBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:36,2021-03-09 19:47:37,0.311s,PASSED
+delay(5),Chrome 88.0.4324.190,,,2021-03-09 19:47:37,2021-03-09 19:47:42,5.079s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Close""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:42,2021-03-09 19:47:42,0.287s,PASSED
+switchToDefaultContent(),Chrome 88.0.4324.190,,,2021-03-09 19:47:42,2021-03-09 19:47:42,0.046s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:47:42,2021-03-09 19:47:43,0.799s,PASSED
+,,,,,,,
+Test Cases/5.CartPersonalInfo/TC-Cart-023,Chrome 88.0.4324.190,Last name: numbers and special caracters,Last name invalid,2021-03-09 19:47:43,2021-03-09 19:48:05,21.723s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:47:44,2021-03-09 19:47:48,4.665s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:47:48,2021-03-09 19:47:49,0.323s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:47:49,2021-03-09 19:47:49,0.154s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:49,2021-03-09 19:47:49,0.535s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:49,2021-03-09 19:47:52,2.993s,PASSED
+"switchToFrame(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:52,2021-03-09 19:47:54,1.646s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Cart""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:54,2021-03-09 19:47:55,0.758s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/AddDetails""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:55,2021-03-09 19:47:55,0.360s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/AddDetails""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:55,2021-03-09 19:47:55,0.299s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/Form/Name""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:47:55,2021-03-09 19:47:56,0.449s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Name""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:47:56,2021-03-09 19:47:57,0.717s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/LastName""), LastName_invalid)",Chrome 88.0.4324.190,,,2021-03-09 19:47:57,2021-03-09 19:47:57,0.514s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Email""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:47:57,2021-03-09 19:47:58,0.562s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Phone""), Phone)",Chrome 88.0.4324.190,,,2021-03-09 19:47:58,2021-03-09 19:47:58,0.573s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Form/SaveBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:47:58,2021-03-09 19:47:59,0.358s,PASSED
+delay(5),Chrome 88.0.4324.190,,,2021-03-09 19:47:59,2021-03-09 19:48:04,5.008s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Close""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:04,2021-03-09 19:48:04,0.272s,PASSED
+switchToDefaultContent(),Chrome 88.0.4324.190,,,2021-03-09 19:48:04,2021-03-09 19:48:04,0.021s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:48:04,2021-03-09 19:48:05,0.826s,PASSED
+,,,,,,,
+Test Cases/5.CartPersonalInfo/TC-Cart-024,Chrome 88.0.4324.190,Personal info: Email is invalid,Email invalid,2021-03-09 19:48:05,2021-03-09 19:48:27,21.947s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:48:05,2021-03-09 19:48:10,4.874s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:48:10,2021-03-09 19:48:10,0.058s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:48:10,2021-03-09 19:48:11,0.193s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:11,2021-03-09 19:48:11,0.550s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:11,2021-03-09 19:48:15,3.544s,PASSED
+"switchToFrame(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:15,2021-03-09 19:48:16,1.041s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Cart""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:16,2021-03-09 19:48:16,0.831s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/AddDetails""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:16,2021-03-09 19:48:17,0.403s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/AddDetails""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:17,2021-03-09 19:48:17,0.397s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/Form/Name""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:17,2021-03-09 19:48:18,0.440s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Name""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:48:18,2021-03-09 19:48:18,0.635s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/LastName""), LastName)",Chrome 88.0.4324.190,,,2021-03-09 19:48:18,2021-03-09 19:48:19,0.533s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Email""), EmailInvalid)",Chrome 88.0.4324.190,,,2021-03-09 19:48:19,2021-03-09 19:48:19,0.530s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Phone""), Phone)",Chrome 88.0.4324.190,,,2021-03-09 19:48:19,2021-03-09 19:48:20,0.499s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Form/SaveBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:20,2021-03-09 19:48:20,0.350s,PASSED
+"verifyElementText(findTestObject(""SeeMenuAndOrder/Form/Please_Email""), ""Please insert a valid email."")",Chrome 88.0.4324.190,,,2021-03-09 19:48:20,2021-03-09 19:48:21,0.276s,PASSED
+delay(5),Chrome 88.0.4324.190,,,2021-03-09 19:48:21,2021-03-09 19:48:26,5.006s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Close""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:26,2021-03-09 19:48:26,0.266s,PASSED
+switchToDefaultContent(),Chrome 88.0.4324.190,,,2021-03-09 19:48:26,2021-03-09 19:48:26,0.025s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:48:26,2021-03-09 19:48:27,0.826s,PASSED
+,,,,,,,
+Test Cases/5.CartPersonalInfo/TC-Cart-025(with keywords),Chrome 88.0.4324.190,Personal info: Phone is writen with letters and special caracters,Phone is invalid,2021-03-09 19:48:27,2021-03-09 19:48:50,23.138s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:48:27,2021-03-09 19:48:33,5.997s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:33,2021-03-09 19:48:34,0.480s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:34,2021-03-09 19:48:38,4.319s,PASSED
+"switchToFrame(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:38,2021-03-09 19:48:39,0.746s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Cart""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:39,2021-03-09 19:48:40,0.749s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/AddDetails""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:40,2021-03-09 19:48:40,0.326s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/AddDetails""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:40,2021-03-09 19:48:40,0.331s,PASSED
+"waitForElementPresent(findTestObject(""SeeMenuAndOrder/Form/Name""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:48:40,2021-03-09 19:48:41,0.503s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Name""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:48:41,2021-03-09 19:48:42,0.764s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/LastName""), LastName)",Chrome 88.0.4324.190,,,2021-03-09 19:48:42,2021-03-09 19:48:42,0.485s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Email""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:48:42,2021-03-09 19:48:43,0.583s,PASSED
+"setText(findTestObject(""SeeMenuAndOrder/Form/Phone""), Phone_invalid)",Chrome 88.0.4324.190,,,2021-03-09 19:48:43,2021-03-09 19:48:43,0.523s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Form/SaveBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:43,2021-03-09 19:48:43,0.347s,PASSED
+"verifyElementText(findTestObject(""SeeMenuAndOrder/Form/Please_phone""), ""Please insert a valid phone number."")",Chrome 88.0.4324.190,,,2021-03-09 19:48:43,2021-03-09 19:48:44,0.245s,PASSED
+delay(5),Chrome 88.0.4324.190,,,2021-03-09 19:48:44,2021-03-09 19:48:49,5.005s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Close""))",Chrome 88.0.4324.190,,,2021-03-09 19:48:49,2021-03-09 19:48:49,0.266s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:48:49,2021-03-09 19:48:50,0.850s,PASSED

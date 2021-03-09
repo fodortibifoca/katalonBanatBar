@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="2.ContactUsPage" time="232.819" tests="11" failures="1" skips="0" errors="0">
+   <testsuite name="2.ContactUsPage" tests="11" failures="1" errors="0" time="232.819" skips="0" timestamp="2021-03-09 19:35:44" hostname="joker - DESKTOP-ASL0OOF" id="Test Suites/2.ContactUsPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193538\\2.ContactUsPage\\20210309_193538"/>
+         <property name="logFiles" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193538\\2.ContactUsPage\\20210309_193538\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193538\\2.ContactUsPage\\20210309_193538\\1615314998324.png, C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193538\\2.ContactUsPage\\20210309_193538\\1615314999147.png"/>
+         <property name="hostName" value="joker - DESKTOP-ASL0OOF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.190"/>
+         <property name="hostAddress" value="192.168.0.17"/>
+         <property name="sessionId" value="82e76b95de002c748aca7c49c8b9e25a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-006" time="53.533" classname="Test Cases/2.ContactUsPage/TC-ContactUs-006" status="FAILED">
+         <failure type="FAILED" message="Test Cases/2.ContactUsPage/TC-ContactUs-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-09 19:35:46 - [TEST_CASE][FAILED] - Test Cases/2.ContactUsPage/TC-ContactUs-006: Test Cases/2.ContactUsPage/TC-ContactUs-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-09 19:35:47 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:35:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:35:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:35:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:35:54 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:35:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:35:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:35:56 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:35:56 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:35:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/Name-Input"), TimeOut): Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:36:00 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Name-Input"), Name): Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:36:00 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Email-Input"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:36:03 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/TextBox-Input"), TextBox): Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:36:04 - [MESSAGE][PASSED] - Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:36:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:36:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:36:06 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SubmitBtn")): Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:36:06 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("ContactUsPage/Captcha"), "Captcha je obavezna."): Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-09 19:36:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Captcha je obavezna.']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-09 19:36:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/ContactUsPage/Captcha'. Try using Self-healing.
+
+2021-03-09 19:36:38 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+2021-03-09 19:36:38 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2021-03-09 19:36:39 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193538\\2.ContactUsPage\\20210309_193538\\1615314998324.png]]
+
+2021-03-09 19:36:39 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_193538\\2.ContactUsPage\\20210309_193538\\1615314999147.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-09 19:35:46 - [TEST_CASE][FAILED] - Test Cases/2.ContactUsPage/TC-ContactUs-006: Test Cases/2.ContactUsPage/TC-ContactUs-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-007" time="18.053" classname="Test Cases/2.ContactUsPage/TC-ContactUs-007" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:36:39 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-007: Test Cases/2.ContactUsPage/TC-ContactUs-007
+
+2021-03-09 19:36:40 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:36:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-09 19:36:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:36:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:36:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:36:46 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:36:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:36:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:36:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:36:46 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:36:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/Name-Input"), TimeOut): Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:36:48 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Name-Input"), Name): Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:36:49 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Email-Input"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:36:51 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/TextBox-Input"), TextBox): Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:36:52 - [MESSAGE][PASSED] - Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:36:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:36:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:36:54 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SubmitBtn")): Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:36:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContactUsPage/Captcha"), "Captcha je obavezna."): Actual text and expected text of test object 'Object Repository/ContactUsPage/Captcha' are matched.
+
+2021-03-09 19:36:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContactUsPage/Captcha' are matched.
+
+2021-03-09 19:36:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:36:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:36:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:36:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-008" time="18.012" classname="Test Cases/2.ContactUsPage/TC-ContactUs-008" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:36:57 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-008: Test Cases/2.ContactUsPage/TC-ContactUs-008
+
+2021-03-09 19:36:58 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:36:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:36:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:37:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:37:03 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:37:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:37:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:37:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:37:03 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/Name-Input"), TimeOut): Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:06 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Name-Input"), ""): Text '' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:37:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:37:07 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Email-Input"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:37:09 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/TextBox-Input"), TextBox): Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:37:10 - [MESSAGE][PASSED] - Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:37:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:37:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:37:12 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SubmitBtn")): Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:37:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContactUsPage/ImeObavezno"), "Ime je obavezno."): Actual text and expected text of test object 'Object Repository/ContactUsPage/ImeObavezno' are matched.
+
+2021-03-09 19:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContactUsPage/ImeObavezno' are matched.
+
+2021-03-09 19:37:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:37:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:37:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:37:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-009" time="17.296" classname="Test Cases/2.ContactUsPage/TC-ContactUs-009" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:37:16 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-009: Test Cases/2.ContactUsPage/TC-ContactUs-009
+
+2021-03-09 19:37:16 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:37:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:37:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:37:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:37:21 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:37:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:37:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:37:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:37:21 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/Name-Input"), TimeOut): Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Name-Input"), Name): Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:37:24 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Email-Input"), ""): Text '' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:37:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:37:26 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/TextBox-Input"), TextBox): Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:37:27 - [MESSAGE][PASSED] - Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:37:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:37:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:37:29 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SubmitBtn")): Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:37:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContactUsPage/EmailObavezan"), "Email je obavezan."): Actual text and expected text of test object 'Object Repository/ContactUsPage/EmailObavezan' are matched.
+
+2021-03-09 19:37:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContactUsPage/EmailObavezan' are matched.
+
+2021-03-09 19:37:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:37:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:37:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-010" time="17.801" classname="Test Cases/2.ContactUsPage/TC-ContactUs-010" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:37:33 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-010: Test Cases/2.ContactUsPage/TC-ContactUs-010
+
+2021-03-09 19:37:33 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:37:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:37:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:37:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:37:38 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:37:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:37:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:37:38 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:37:38 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/Name-Input"), TimeOut): Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Name-Input"), Name): Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:37:41 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Email-Input"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:37:43 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:37:43 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/TextBox-Input"), ""): Text '' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:37:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:37:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:37:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:37:46 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SubmitBtn")): Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:37:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContactUsPage/PorukaObavezna"), "Poruka je obavezna."): Actual text and expected text of test object 'Object Repository/ContactUsPage/PorukaObavezna' are matched.
+
+2021-03-09 19:37:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContactUsPage/PorukaObavezna' are matched.
+
+2021-03-09 19:37:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:37:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:37:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:37:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-011" time="17.622" classname="Test Cases/2.ContactUsPage/TC-ContactUs-011" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:37:51 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-011: Test Cases/2.ContactUsPage/TC-ContactUs-011
+
+2021-03-09 19:37:51 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:37:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:37:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:37:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:37:56 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:37:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:37:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:37:57 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:37:57 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:37:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/Name-Input"), TimeOut): Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:59 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Name-Input"), "foti#3$4%5"): Text 'foti#3$4%5' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:38:00 - [MESSAGE][PASSED] - Text 'foti#3$4%5' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Email-Input"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:38:02 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:38:02 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/TextBox-Input"), TextBox): Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:38:03 - [MESSAGE][PASSED] - Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:38:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:38:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:38:05 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SubmitBtn")): Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:38:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:38:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:38:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:38:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-012" time="16.72" classname="Test Cases/2.ContactUsPage/TC-ContactUs-012" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:38:08 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-012: Test Cases/2.ContactUsPage/TC-ContactUs-012
+
+2021-03-09 19:38:09 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:38:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:38:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:38:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:38:14 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:38:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:38:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:38:14 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:38:14 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:38:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/Name-Input"), TimeOut): Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/Name-Input' is visible
+
+2021-03-09 19:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Name-Input"), Name): Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:38:17 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/ContactUsPage/Name-Input'
+
+2021-03-09 19:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/Email-Input"), EmailInvalid): Text 'fotigmail@com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:38:18 - [MESSAGE][PASSED] - Text 'fotigmail@com' is set on object 'Object Repository/ContactUsPage/Email-Input'
+
+2021-03-09 19:38:18 - [TEST_STEP][PASSED] - setText(findTestObject("ContactUsPage/TextBox-Input"), TextBox): Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:38:19 - [MESSAGE][PASSED] - Text 'You are great' is set on object 'Object Repository/ContactUsPage/TextBox-Input'
+
+2021-03-09 19:38:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:38:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:38:21 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SubmitBtn")): Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SubmitBtn' is clicked on
+
+2021-03-09 19:38:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("ContactUsPage/EmailInvalid"), "Email nije validan."): Actual text and expected text of test object 'Object Repository/ContactUsPage/EmailInvalid' are matched.
+
+2021-03-09 19:38:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ContactUsPage/EmailInvalid' are matched.
+
+2021-03-09 19:38:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-09 19:38:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-09 19:38:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:38:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-013" time="15.121" classname="Test Cases/2.ContactUsPage/TC-ContactUs-013" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:38:25 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-013: Test Cases/2.ContactUsPage/TC-ContactUs-013
+
+2021-03-09 19:38:26 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:38:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:38:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:38:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:38:30 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:38:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:38:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:38:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:38:31 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:38:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ContactUsPage/SubmitBtn"), TimeOut): Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:38:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:38:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/ZoomOut"), TimeOut): Object 'Object Repository/ContactUsPage/ZoomOut' is visible
+
+2021-03-09 19:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/ZoomOut' is visible
+
+2021-03-09 19:38:37 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ZoomOut")): Object: 'Object Repository/ContactUsPage/ZoomOut' is clicked on
+
+2021-03-09 19:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ZoomOut' is clicked on
+
+2021-03-09 19:38:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 19:38:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 19:38:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:38:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-014" time="15.435" classname="Test Cases/2.ContactUsPage/TC-ContactUs-014" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:38:40 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-014: Test Cases/2.ContactUsPage/TC-ContactUs-014
+
+2021-03-09 19:38:41 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:38:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:38:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:38:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:38:46 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:38:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:38:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:38:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:38:46 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:38:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ContactUsPage/SubmitBtn"), TimeOut): Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:38:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:38:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/ZoomIn"), TimeOut): Object 'Object Repository/ContactUsPage/ZoomIn' is visible
+
+2021-03-09 19:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/ZoomIn' is visible
+
+2021-03-09 19:38:52 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ZoomIn")): Object: 'Object Repository/ContactUsPage/ZoomIn' is clicked on
+
+2021-03-09 19:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ZoomIn' is clicked on
+
+2021-03-09 19:38:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 19:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 19:38:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:38:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-015" time="21.856" classname="Test Cases/2.ContactUsPage/TC-ContactUs-015" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:38:56 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-015: Test Cases/2.ContactUsPage/TC-ContactUs-015
+
+2021-03-09 19:38:56 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:38:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:38:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:39:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:39:01 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:39:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:39:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:39:01 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:39:01 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:39:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ContactUsPage/SubmitBtn"), TimeOut): Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:39:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:39:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/SatelliteView"), TimeOut): Object 'Object Repository/ContactUsPage/SatelliteView' is visible
+
+2021-03-09 19:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/SatelliteView' is visible
+
+2021-03-09 19:39:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-09 19:39:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-09 19:39:11 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/SatelliteView")): Object: 'Object Repository/ContactUsPage/SatelliteView' is clicked on
+
+2021-03-09 19:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/SatelliteView' is clicked on
+
+2021-03-09 19:39:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-09 19:39:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-09 19:39:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:39:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.ContactUsPage/TC-ContactUs-016" time="18.476" classname="Test Cases/2.ContactUsPage/TC-ContactUs-016" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:39:18 - [TEST_CASE][PASSED] - Test Cases/2.ContactUsPage/TC-ContactUs-016: Test Cases/2.ContactUsPage/TC-ContactUs-016
+
+2021-03-09 19:39:18 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:39:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:39:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:39:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:39:23 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:39:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:39:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:39:23 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:39:23 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/ContactUs-Link")): Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/ContactUs-Link' is clicked on
+
+2021-03-09 19:39:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ContactUsPage/SubmitBtn"), TimeOut): Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:39:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ContactUsPage/SubmitBtn' successfully
+
+2021-03-09 19:39:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ContactUsPage/GoogleMapsNewTab"), TimeOut): Object 'Object Repository/ContactUsPage/GoogleMapsNewTab' is visible
+
+2021-03-09 19:39:28 - [MESSAGE][PASSED] - Object 'Object Repository/ContactUsPage/GoogleMapsNewTab' is visible
+
+2021-03-09 19:39:29 - [TEST_STEP][PASSED] - click(findTestObject("ContactUsPage/GoogleMapsNewTab")): Object: 'Object Repository/ContactUsPage/GoogleMapsNewTab' is clicked on
+
+2021-03-09 19:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactUsPage/GoogleMapsNewTab' is clicked on
+
+2021-03-09 19:39:29 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-03-09 19:39:29 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-03-09 19:39:29 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:39:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:39:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 19:39:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 19:39:33 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2021-03-09 19:39:34 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2021-03-09 19:39:34 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2021-03-09 19:39:34 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-03-09 19:39:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-03-09 19:39:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-03-09 19:39:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:39:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-09 19:35:44 - [TEST_SUITE][FAILED] - 2.ContactUsPage: Test Cases/2.ContactUsPage/TC-ContactUs-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-03-09 19:35:44 - [TEST_SUITE][FAILED] - 2.ContactUsPage: Test Cases/2.ContactUsPage/TC-ContactUs-006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/ContactUsPage/Captcha' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at TC-ContactUs-006.run(TC-ContactUs-006:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615314938743.run(TempTestSuite1615314938743.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ContactUsPage/Captcha' located by '//span[text()='Captcha je obavezna.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2.ContactUsPage,Chrome 88.0.4324.190,,,2021-03-09 19:35:44,2021-03-09 19:39:36,3m - 51.956s,FAILED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-006,Chrome 88.0.4324.190,Corect data input,correct,2021-03-09 19:35:46,2021-03-09 19:36:39,53.533s,FAILED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:35:47,2021-03-09 19:35:54,7.699s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:35:54,2021-03-09 19:35:56,1.538s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:35:56,2021-03-09 19:35:56,0.264s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:35:56,2021-03-09 19:35:59,2.699s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/Name-Input""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:35:59,2021-03-09 19:36:00,0.607s,PASSED
+"setText(findTestObject(""ContactUsPage/Name-Input""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:36:00,2021-03-09 19:36:00,0.853s,PASSED
+"setText(findTestObject(""ContactUsPage/Email-Input""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:36:00,2021-03-09 19:36:03,2.410s,PASSED
+"setText(findTestObject(""ContactUsPage/TextBox-Input""), TextBox)",Chrome 88.0.4324.190,,,2021-03-09 19:36:03,2021-03-09 19:36:04,0.848s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:36:04,2021-03-09 19:36:06,2.053s,PASSED
+"click(findTestObject(""ContactUsPage/SubmitBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:36:06,2021-03-09 19:36:06,0.646s,PASSED
+"verifyElementText(findTestObject(""ContactUsPage/Captcha""), ""Captcha je obavezna."")",Chrome 88.0.4324.190,,,2021-03-09 19:36:06,2021-03-09 19:36:39,32.977s,FAILED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-007,Chrome 88.0.4324.190,Wait 2 minutes after ticking a recaptcha,Wait 2,2021-03-09 19:36:39,2021-03-09 19:36:57,18.053s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:36:40,2021-03-09 19:36:46,5.550s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:36:46,2021-03-09 19:36:46,0.030s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:36:46,2021-03-09 19:36:46,0.134s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:36:46,2021-03-09 19:36:48,1.756s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/Name-Input""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:36:48,2021-03-09 19:36:48,0.501s,PASSED
+"setText(findTestObject(""ContactUsPage/Name-Input""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:36:48,2021-03-09 19:36:49,0.753s,PASSED
+"setText(findTestObject(""ContactUsPage/Email-Input""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:36:49,2021-03-09 19:36:51,2.017s,PASSED
+"setText(findTestObject(""ContactUsPage/TextBox-Input""), TextBox)",Chrome 88.0.4324.190,,,2021-03-09 19:36:51,2021-03-09 19:36:52,0.743s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:36:52,2021-03-09 19:36:54,2.008s,PASSED
+"click(findTestObject(""ContactUsPage/SubmitBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:36:54,2021-03-09 19:36:54,0.480s,PASSED
+"verifyElementText(findTestObject(""ContactUsPage/Captcha""), ""Captcha je obavezna."")",Chrome 88.0.4324.190,,,2021-03-09 19:36:54,2021-03-09 19:36:55,0.528s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:36:55,2021-03-09 19:36:57,2.007s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:36:57,2021-03-09 19:36:57,0.794s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-008,Chrome 88.0.4324.190,Name is blank,Ime je obavezno,2021-03-09 19:36:57,2021-03-09 19:37:16,18.012s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:36:58,2021-03-09 19:37:03,5.061s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:37:03,2021-03-09 19:37:03,0.027s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:37:03,2021-03-09 19:37:03,0.137s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:37:03,2021-03-09 19:37:06,2.194s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/Name-Input""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:37:06,2021-03-09 19:37:06,0.506s,PASSED
+"setText(findTestObject(""ContactUsPage/Name-Input""), """")",Chrome 88.0.4324.190,,,2021-03-09 19:37:06,2021-03-09 19:37:07,0.709s,PASSED
+"setText(findTestObject(""ContactUsPage/Email-Input""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:37:07,2021-03-09 19:37:09,1.945s,PASSED
+"setText(findTestObject(""ContactUsPage/TextBox-Input""), TextBox)",Chrome 88.0.4324.190,,,2021-03-09 19:37:09,2021-03-09 19:37:10,0.814s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:37:10,2021-03-09 19:37:12,2.006s,PASSED
+"click(findTestObject(""ContactUsPage/SubmitBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:37:12,2021-03-09 19:37:12,0.489s,PASSED
+"verifyElementText(findTestObject(""ContactUsPage/ImeObavezno""), ""Ime je obavezno."")",Chrome 88.0.4324.190,,,2021-03-09 19:37:12,2021-03-09 19:37:13,0.540s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:37:13,2021-03-09 19:37:15,2.004s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:37:15,2021-03-09 19:37:16,0.803s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-009,Chrome 88.0.4324.190,Email is blank,Email je obavezan,2021-03-09 19:37:16,2021-03-09 19:37:33,17.296s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:37:16,2021-03-09 19:37:21,4.714s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:37:21,2021-03-09 19:37:21,0.069s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:37:21,2021-03-09 19:37:21,0.171s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:37:21,2021-03-09 19:37:23,1.900s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/Name-Input""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:37:23,2021-03-09 19:37:23,0.469s,PASSED
+"setText(findTestObject(""ContactUsPage/Name-Input""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:37:23,2021-03-09 19:37:24,0.775s,PASSED
+"setText(findTestObject(""ContactUsPage/Email-Input""), """")",Chrome 88.0.4324.190,,,2021-03-09 19:37:24,2021-03-09 19:37:26,1.983s,PASSED
+"setText(findTestObject(""ContactUsPage/TextBox-Input""), TextBox)",Chrome 88.0.4324.190,,,2021-03-09 19:37:26,2021-03-09 19:37:27,0.834s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:37:27,2021-03-09 19:37:29,2.006s,PASSED
+"click(findTestObject(""ContactUsPage/SubmitBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:37:29,2021-03-09 19:37:30,0.471s,PASSED
+"verifyElementText(findTestObject(""ContactUsPage/EmailObavezan""), ""Email je obavezan."")",Chrome 88.0.4324.190,,,2021-03-09 19:37:30,2021-03-09 19:37:30,0.497s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:37:30,2021-03-09 19:37:32,2.003s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:37:32,2021-03-09 19:37:33,0.810s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-010,Chrome 88.0.4324.190,Text is blank,Poruka je obavezna,2021-03-09 19:37:33,2021-03-09 19:37:51,17.801s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:37:33,2021-03-09 19:37:38,4.645s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:37:38,2021-03-09 19:37:38,0.022s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:37:38,2021-03-09 19:37:38,0.134s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:37:38,2021-03-09 19:37:40,1.774s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/Name-Input""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:37:40,2021-03-09 19:37:41,0.529s,PASSED
+"setText(findTestObject(""ContactUsPage/Name-Input""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:37:41,2021-03-09 19:37:41,0.759s,PASSED
+"setText(findTestObject(""ContactUsPage/Email-Input""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:37:41,2021-03-09 19:37:43,1.907s,PASSED
+"setText(findTestObject(""ContactUsPage/TextBox-Input""), """")",Chrome 88.0.4324.190,,,2021-03-09 19:37:43,2021-03-09 19:37:44,0.888s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:37:44,2021-03-09 19:37:46,2.003s,PASSED
+"click(findTestObject(""ContactUsPage/SubmitBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:37:46,2021-03-09 19:37:47,0.487s,PASSED
+"verifyElementText(findTestObject(""ContactUsPage/PorukaObavezna""), ""Poruka je obavezna."")",Chrome 88.0.4324.190,,,2021-03-09 19:37:47,2021-03-09 19:37:48,0.956s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:37:48,2021-03-09 19:37:50,2.004s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:37:50,2021-03-09 19:37:51,1.080s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-011,Chrome 88.0.4324.190,Name with numbers and special caracters,Ime ne sme sadrzati brojevei specijalne karaktere,2021-03-09 19:37:51,2021-03-09 19:38:08,17.622s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:37:51,2021-03-09 19:37:56,4.957s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:37:56,2021-03-09 19:37:56,0.039s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:37:56,2021-03-09 19:37:57,0.189s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:37:57,2021-03-09 19:37:59,2.021s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/Name-Input""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:37:59,2021-03-09 19:37:59,0.540s,PASSED
+"setText(findTestObject(""ContactUsPage/Name-Input""), ""foti#3$4%5"")",Chrome 88.0.4324.190,,,2021-03-09 19:37:59,2021-03-09 19:38:00,0.800s,PASSED
+"setText(findTestObject(""ContactUsPage/Email-Input""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:38:00,2021-03-09 19:38:02,2.231s,PASSED
+"setText(findTestObject(""ContactUsPage/TextBox-Input""), TextBox)",Chrome 88.0.4324.190,,,2021-03-09 19:38:02,2021-03-09 19:38:03,0.866s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:38:03,2021-03-09 19:38:05,2.005s,PASSED
+"click(findTestObject(""ContactUsPage/SubmitBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:38:05,2021-03-09 19:38:05,0.479s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:38:05,2021-03-09 19:38:07,2.005s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:38:07,2021-03-09 19:38:08,0.800s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-012,Chrome 88.0.4324.190,Email is uncorect,Email nije validan,2021-03-09 19:38:08,2021-03-09 19:38:25,16.720s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:38:09,2021-03-09 19:38:14,4.696s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:38:14,2021-03-09 19:38:14,0.020s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:38:14,2021-03-09 19:38:14,0.134s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:38:14,2021-03-09 19:38:16,1.773s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/Name-Input""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:38:16,2021-03-09 19:38:16,0.528s,PASSED
+"setText(findTestObject(""ContactUsPage/Name-Input""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:38:16,2021-03-09 19:38:17,0.831s,PASSED
+"setText(findTestObject(""ContactUsPage/Email-Input""), EmailInvalid)",Chrome 88.0.4324.190,,,2021-03-09 19:38:17,2021-03-09 19:38:18,1.540s,PASSED
+"setText(findTestObject(""ContactUsPage/TextBox-Input""), TextBox)",Chrome 88.0.4324.190,,,2021-03-09 19:38:18,2021-03-09 19:38:19,0.850s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:38:19,2021-03-09 19:38:21,2.005s,PASSED
+"click(findTestObject(""ContactUsPage/SubmitBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:38:21,2021-03-09 19:38:22,0.427s,PASSED
+"verifyElementText(findTestObject(""ContactUsPage/EmailInvalid""), ""Email nije validan."")",Chrome 88.0.4324.190,,,2021-03-09 19:38:22,2021-03-09 19:38:22,0.521s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:38:22,2021-03-09 19:38:24,2.005s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:38:24,2021-03-09 19:38:25,0.797s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-013,Chrome 88.0.4324.190,Road map is zoomed out,ZoomOut,2021-03-09 19:38:25,2021-03-09 19:38:40,15.121s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:38:26,2021-03-09 19:38:30,4.797s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:38:30,2021-03-09 19:38:31,0.026s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:38:31,2021-03-09 19:38:31,0.141s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:38:31,2021-03-09 19:38:33,2.772s,PASSED
+"scrollToElement(findTestObject(""ContactUsPage/SubmitBtn""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:38:33,2021-03-09 19:38:34,0.519s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/ZoomOut""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:38:34,2021-03-09 19:38:37,3.030s,PASSED
+"click(findTestObject(""ContactUsPage/ZoomOut""))",Chrome 88.0.4324.190,,,2021-03-09 19:38:37,2021-03-09 19:38:38,0.745s,PASSED
+delay(1),Chrome 88.0.4324.190,,,2021-03-09 19:38:38,2021-03-09 19:38:39,1.014s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:38:39,2021-03-09 19:38:40,1.425s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-014,Chrome 88.0.4324.190,Zoom In Road Map,Zoom In,2021-03-09 19:38:40,2021-03-09 19:38:56,15.435s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:38:41,2021-03-09 19:38:46,5.040s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:38:46,2021-03-09 19:38:46,0.140s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:38:46,2021-03-09 19:38:46,0.208s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:38:46,2021-03-09 19:38:49,2.432s,PASSED
+"scrollToElement(findTestObject(""ContactUsPage/SubmitBtn""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:38:49,2021-03-09 19:38:49,0.515s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/ZoomIn""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:38:49,2021-03-09 19:38:52,3.261s,PASSED
+"click(findTestObject(""ContactUsPage/ZoomIn""))",Chrome 88.0.4324.190,,,2021-03-09 19:38:52,2021-03-09 19:38:53,0.866s,PASSED
+delay(1),Chrome 88.0.4324.190,,,2021-03-09 19:38:53,2021-03-09 19:38:54,1.015s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:38:54,2021-03-09 19:38:56,1.352s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-015,Chrome 88.0.4324.190,Satellite view on the map,Satellite view,2021-03-09 19:38:56,2021-03-09 19:39:17,21.856s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:38:56,2021-03-09 19:39:01,4.986s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:39:01,2021-03-09 19:39:01,0.031s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:39:01,2021-03-09 19:39:01,0.185s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:39:01,2021-03-09 19:39:04,2.449s,PASSED
+"scrollToElement(findTestObject(""ContactUsPage/SubmitBtn""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:39:04,2021-03-09 19:39:04,0.520s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/SatelliteView""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:39:04,2021-03-09 19:39:08,3.758s,PASSED
+delay(3),Chrome 88.0.4324.190,,,2021-03-09 19:39:08,2021-03-09 19:39:11,3.008s,PASSED
+"click(findTestObject(""ContactUsPage/SatelliteView""))",Chrome 88.0.4324.190,,,2021-03-09 19:39:11,2021-03-09 19:39:12,0.536s,PASSED
+delay(5),Chrome 88.0.4324.190,,,2021-03-09 19:39:12,2021-03-09 19:39:17,5.005s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:39:17,2021-03-09 19:39:17,0.815s,PASSED
+,,,,,,,
+Test Cases/2.ContactUsPage/TC-ContactUs-016,Chrome 88.0.4324.190,Google map functionality,Google map,2021-03-09 19:39:18,2021-03-09 19:39:36,18.476s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:39:18,2021-03-09 19:39:23,5.008s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:39:23,2021-03-09 19:39:23,0.025s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:39:23,2021-03-09 19:39:23,0.140s,PASSED
+"click(findTestObject(""ContactUsPage/ContactUs-Link""))",Chrome 88.0.4324.190,,,2021-03-09 19:39:23,2021-03-09 19:39:25,1.742s,PASSED
+"scrollToElement(findTestObject(""ContactUsPage/SubmitBtn""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:39:25,2021-03-09 19:39:26,0.514s,PASSED
+"waitForElementVisible(findTestObject(""ContactUsPage/GoogleMapsNewTab""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:39:26,2021-03-09 19:39:29,2.935s,PASSED
+"click(findTestObject(""ContactUsPage/GoogleMapsNewTab""))",Chrome 88.0.4324.190,,,2021-03-09 19:39:29,2021-03-09 19:39:29,0.694s,PASSED
+switchToWindowIndex(1),Chrome 88.0.4324.190,,,2021-03-09 19:39:29,2021-03-09 19:39:29,0.102s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:39:29,2021-03-09 19:39:32,2.880s,PASSED
+delay(1),Chrome 88.0.4324.190,,,2021-03-09 19:39:32,2021-03-09 19:39:33,1.004s,PASSED
+closeWindowIndex(1),Chrome 88.0.4324.190,,,2021-03-09 19:39:33,2021-03-09 19:39:34,0.442s,PASSED
+switchToWindowIndex(0),Chrome 88.0.4324.190,,,2021-03-09 19:39:34,2021-03-09 19:39:34,0.075s,PASSED
+delay(1),Chrome 88.0.4324.190,,,2021-03-09 19:39:34,2021-03-09 19:39:35,1.005s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:39:35,2021-03-09 19:39:36,1.279s,PASSED

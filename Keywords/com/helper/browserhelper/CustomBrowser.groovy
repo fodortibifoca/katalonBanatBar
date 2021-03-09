@@ -21,14 +21,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CustomBrowser {
-	
+
 	@Keyword
 	public void openBrowser() {
 		WebUI.openBrowser('http://www.banatbar.rs/en')
 		WebUI.waitForPageLoad(GlobalVariable.TimeOut)
 		WebUI.maximizeWindow()
 	}
-	
+
 	@Keyword
 	public void closeBrowser() {
 		WebUI.switchToDefaultContent()

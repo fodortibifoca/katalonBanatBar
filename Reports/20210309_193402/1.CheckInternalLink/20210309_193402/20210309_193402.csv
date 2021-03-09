@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1.CheckInternalLink,Chrome 88.0.4324.190,,,2021-03-09 19:34:08,2021-03-09 19:35:21,1m - 12.792s,PASSED
+,,,,,,,
+Test Cases/1.CheckInternalLink/TC-Link-001,Chrome 88.0.4324.190,Menu Link,Menu,2021-03-09 19:34:10,2021-03-09 19:34:29,19.471s,PASSED
+"openBrowser(""https://www.banatbar.rs/en/"")",Chrome 88.0.4324.190,,,2021-03-09 19:34:11,2021-03-09 19:34:20,9.277s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:34:20,2021-03-09 19:34:22,2.126s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:34:22,2021-03-09 19:34:22,0.246s,PASSED
+"click(findTestObject(""NavigationBar/Menu""))",Chrome 88.0.4324.190,,,2021-03-09 19:34:22,2021-03-09 19:34:26,3.155s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:34:26,2021-03-09 19:34:26,0.044s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:34:26,2021-03-09 19:34:28,2.075s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:34:28,2021-03-09 19:34:29,1.470s,PASSED
+,,,,,,,
+Test Cases/1.CheckInternalLink/TC-Link-002,Chrome 88.0.4324.190,FoodDelivery Link,FoodDelivery,2021-03-09 19:34:29,2021-03-09 19:34:42,12.264s,PASSED
+"openBrowser(""https://www.banatbar.rs/en/"")",Chrome 88.0.4324.190,,,2021-03-09 19:34:30,2021-03-09 19:34:36,5.637s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:34:36,2021-03-09 19:34:36,0.050s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:34:36,2021-03-09 19:34:36,0.293s,PASSED
+"click(findTestObject(""NavigationBar/FoodDelivery""))",Chrome 88.0.4324.190,,,2021-03-09 19:34:36,2021-03-09 19:34:39,2.555s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:34:39,2021-03-09 19:34:39,0.030s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:34:39,2021-03-09 19:34:41,2.006s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:34:41,2021-03-09 19:34:42,0.974s,PASSED
+,,,,,,,
+Test Cases/1.CheckInternalLink/TC-Link-003,Chrome 88.0.4324.190,ContactUs link,ContactUs,2021-03-09 19:34:42,2021-03-09 19:34:52,10.239s,PASSED
+"openBrowser(""https://www.banatbar.rs/en/"")",Chrome 88.0.4324.190,,,2021-03-09 19:34:42,2021-03-09 19:34:47,4.641s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:34:47,2021-03-09 19:34:47,0.049s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:34:47,2021-03-09 19:34:47,0.156s,PASSED
+"click(findTestObject(""NavigationBar/ContactUs""))",Chrome 88.0.4324.190,,,2021-03-09 19:34:47,2021-03-09 19:34:49,2.007s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:34:49,2021-03-09 19:34:49,0.024s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:34:49,2021-03-09 19:34:51,2.005s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:34:51,2021-03-09 19:34:52,0.743s,PASSED
+,,,,,,,
+Test Cases/1.CheckInternalLink/TC-Link-004,Chrome 88.0.4324.190,TableReservation link,TableReservation,2021-03-09 19:34:52,2021-03-09 19:35:07,14.799s,PASSED
+"openBrowser(""https://www.banatbar.rs/en/"")",Chrome 88.0.4324.190,,,2021-03-09 19:34:52,2021-03-09 19:34:57,5.040s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:34:57,2021-03-09 19:34:58,0.041s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:34:58,2021-03-09 19:34:58,0.174s,PASSED
+"click(findTestObject(""NavigationBar/TableReservation""))",Chrome 88.0.4324.190,,,2021-03-09 19:34:58,2021-03-09 19:34:58,0.741s,PASSED
+"waitForElementVisible(findTestObject(""NavigationBar/iFrame-TableReservation""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:34:58,2021-03-09 19:35:04,5.321s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:35:04,2021-03-09 19:35:06,2.008s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:35:06,2021-03-09 19:35:07,0.835s,PASSED
+,,,,,,,
+Test Cases/1.CheckInternalLink/TC-Link-005,Chrome 88.0.4324.190,SeeMenuAndOrder Link,SeeMenuAndOrder,2021-03-09 19:35:07,2021-03-09 19:35:21,14.098s,PASSED
+"openBrowser(""https://www.banatbar.rs/en/"")",Chrome 88.0.4324.190,,,2021-03-09 19:35:07,2021-03-09 19:35:12,4.836s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:35:12,2021-03-09 19:35:12,0.036s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:35:12,2021-03-09 19:35:12,0.304s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:35:12,2021-03-09 19:35:13,0.680s,PASSED
+"waitForElementVisible(findTestObject(""NavigationBar/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:35:13,2021-03-09 19:35:18,4.433s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:35:18,2021-03-09 19:35:20,2.005s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:35:20,2021-03-09 19:35:21,1.213s,PASSED

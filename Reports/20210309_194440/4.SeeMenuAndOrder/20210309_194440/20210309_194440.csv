@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+4.SeeMenuAndOrder,Chrome 88.0.4324.190,,,2021-03-09 19:44:45,2021-03-09 19:46:38,1m - 52.968s,FAILED
+,,,,,,,
+Test Cases/4.SeeMenuAndOrder/TC-SeeMenuAndOrder-019,Chrome 88.0.4324.190,Check personal info afte cash is deleted,Personal info,2021-03-09 19:44:47,2021-03-09 19:45:08,20.655s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:44:48,2021-03-09 19:44:55,7.229s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:44:55,2021-03-09 19:44:57,1.517s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:44:57,2021-03-09 19:44:57,0.271s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:44:57,2021-03-09 19:44:58,0.814s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:44:58,2021-03-09 19:45:02,3.682s,PASSED
+"switchToFrame(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:02,2021-03-09 19:45:03,1.251s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Cart""))",Chrome 88.0.4324.190,,,2021-03-09 19:45:03,2021-03-09 19:45:04,0.757s,PASSED
+delay(3),Chrome 88.0.4324.190,,,2021-03-09 19:45:04,2021-03-09 19:45:07,3.134s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Close""))",Chrome 88.0.4324.190,,,2021-03-09 19:45:07,2021-03-09 19:45:07,0.279s,PASSED
+switchToDefaultContent(),Chrome 88.0.4324.190,,,2021-03-09 19:45:07,2021-03-09 19:45:07,0.051s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:45:07,2021-03-09 19:45:08,0.796s,PASSED
+,,,,,,,
+Test Cases/4.SeeMenuAndOrder/TC-SeeMenuAndOrder-020,Chrome 88.0.4324.190,Info page language,Language,2021-03-09 19:45:08,2021-03-09 19:45:34,25.972s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:45:09,2021-03-09 19:45:16,7.380s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:45:16,2021-03-09 19:45:16,0.029s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:45:16,2021-03-09 19:45:16,0.141s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:45:16,2021-03-09 19:45:17,0.631s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:17,2021-03-09 19:45:23,5.883s,PASSED
+"switchToFrame(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:23,2021-03-09 19:45:23,0.529s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/InfoPage""))",Chrome 88.0.4324.190,,,2021-03-09 19:45:23,2021-03-09 19:45:24,1.207s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/Language""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:24,2021-03-09 19:45:28,3.324s,PASSED
+"scrollToElement(findTestObject(""SeeMenuAndOrder/Language""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:28,2021-03-09 19:45:28,0.538s,PASSED
+"selectOptionByLabel(findTestObject(""SeeMenuAndOrder/Language""), ""Deutsch"", false)",Chrome 88.0.4324.190,,,2021-03-09 19:45:28,2021-03-09 19:45:29,0.824s,PASSED
+delay(3),Chrome 88.0.4324.190,,,2021-03-09 19:45:29,2021-03-09 19:45:32,3.007s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/Sprachen""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:32,2021-03-09 19:45:32,0.176s,PASSED
+"verifyElementText(findTestObject(""SeeMenuAndOrder/Sprachen""), ""Sprachen"")",Chrome 88.0.4324.190,,,2021-03-09 19:45:32,2021-03-09 19:45:32,0.180s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Close""))",Chrome 88.0.4324.190,,,2021-03-09 19:45:32,2021-03-09 19:45:33,0.282s,PASSED
+switchToDefaultContent(),Chrome 88.0.4324.190,,,2021-03-09 19:45:33,2021-03-09 19:45:33,0.022s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:45:33,2021-03-09 19:45:34,1.124s,PASSED
+,,,,,,,
+Test Cases/4.SeeMenuAndOrder/TC-SeeMenuAndOrder-021(verify text),Chrome 88.0.4324.190,Test order count,Order count,2021-03-09 19:45:34,2021-03-09 19:46:38,1m - 4.465s,FAILED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:45:35,2021-03-09 19:45:41,6.797s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:45:41,2021-03-09 19:45:41,0.037s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:45:41,2021-03-09 19:45:42,0.161s,PASSED
+"click(findTestObject(""NavigationBar/SeeMenuAndOrder""))",Chrome 88.0.4324.190,,,2021-03-09 19:45:42,2021-03-09 19:45:42,0.569s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:42,2021-03-09 19:45:46,4.140s,PASSED
+"switchToFrame(findTestObject(""SeeMenuAndOrder/iFrame-SeeMenuAndOrder""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:46,2021-03-09 19:45:47,0.592s,PASSED
+"click(findTestObject(""SeeMenuAndOrder/Dodaci/BaconBurger""))",Chrome 88.0.4324.190,,,2021-03-09 19:45:47,2021-03-09 19:45:47,0.664s,PASSED
+"waitForElementVisible(findTestObject(""SeeMenuAndOrder/Dodaci/530""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:45:47,2021-03-09 19:46:19,31.354s,PASSED
+"verifyElementText(findTestObject(""SeeMenuAndOrder/Dodaci/530""), ""530,00 RSD"")",Chrome 88.0.4324.190,,,2021-03-09 19:46:19,2021-03-09 19:46:38,19.517s,FAILED

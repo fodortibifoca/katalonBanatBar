@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3.TableReservationPage,Chrome 88.0.4324.190,,,2021-03-09 19:43:31,2021-03-09 19:44:20,48.478s,FAILED
+,,,,,,,
+Test Cases/3.TableReservationPage/TC-TableReservation-017,Chrome 88.0.4324.190,Test 'Table Reservation' page functionality,Reservation,2021-03-09 19:43:33,2021-03-09 19:43:55,22.021s,PASSED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:43:34,2021-03-09 19:43:40,6.391s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:43:40,2021-03-09 19:43:41,1.001s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:43:41,2021-03-09 19:43:41,0.197s,PASSED
+"click(findTestObject(""NavigationBar/TableReservation""))",Chrome 88.0.4324.190,,,2021-03-09 19:43:41,2021-03-09 19:43:42,0.620s,PASSED
+"waitForElementVisible(findTestObject(""NavigationBar/iFrame-TableReservation""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:43:42,2021-03-09 19:43:45,3.494s,PASSED
+"switchToFrame(findTestObject(""NavigationBar/iFrame-TableReservation""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:43:45,2021-03-09 19:43:47,1.294s,PASSED
+"selectOptionByIndex(findTestObject(""ReservationTable/NumberOfPeople""), 2)",Chrome 88.0.4324.190,,,2021-03-09 19:43:47,2021-03-09 19:43:47,0.619s,PASSED
+"selectOptionByLabel(findTestObject(""ReservationTable/Date""), ""tomorrow"", false)",Chrome 88.0.4324.190,,,2021-03-09 19:43:47,2021-03-09 19:43:48,0.383s,PASSED
+"selectOptionByLabel(findTestObject(""ReservationTable/Time""), ""07:45"", false)",Chrome 88.0.4324.190,,,2021-03-09 19:43:48,2021-03-09 19:43:48,0.335s,PASSED
+"click(findTestObject(""ReservationTable/Next""))",Chrome 88.0.4324.190,,,2021-03-09 19:43:48,2021-03-09 19:43:48,0.381s,PASSED
+delay(3),Chrome 88.0.4324.190,,,2021-03-09 19:43:48,2021-03-09 19:43:51,3.094s,PASSED
+"click(findTestObject(""ReservationTable/Close""))",Chrome 88.0.4324.190,,,2021-03-09 19:43:51,2021-03-09 19:43:52,0.269s,PASSED
+delay(2),Chrome 88.0.4324.190,,,2021-03-09 19:43:52,2021-03-09 19:43:54,2.005s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2021-03-09 19:43:54,2021-03-09 19:43:55,1.008s,PASSED
+,,,,,,,
+Test Cases/3.TableReservationPage/TC-TableReservation-018,Chrome 88.0.4324.190,Test 'TableReservation' page functionality,Table Reservation,2021-03-09 19:43:55,2021-03-09 19:44:20,24.933s,FAILED
+"openBrowser(""https://www.banatbar.rs/en"")",Chrome 88.0.4324.190,,,2021-03-09 19:43:55,2021-03-09 19:44:01,5.697s,PASSED
+waitForPageLoad(TimeOut),Chrome 88.0.4324.190,,,2021-03-09 19:44:01,2021-03-09 19:44:01,0.043s,PASSED
+maximizeWindow(),Chrome 88.0.4324.190,,,2021-03-09 19:44:01,2021-03-09 19:44:01,0.151s,PASSED
+"click(findTestObject(""NavigationBar/TableReservation""))",Chrome 88.0.4324.190,,,2021-03-09 19:44:01,2021-03-09 19:44:02,0.564s,PASSED
+"waitForElementVisible(findTestObject(""NavigationBar/iFrame-TableReservation""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:44:02,2021-03-09 19:44:08,5.698s,PASSED
+"switchToFrame(findTestObject(""NavigationBar/iFrame-TableReservation""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:44:08,2021-03-09 19:44:09,1.067s,PASSED
+"selectOptionByIndex(findTestObject(""ReservationTable/NumberOfPeople""), 2)",Chrome 88.0.4324.190,,,2021-03-09 19:44:09,2021-03-09 19:44:09,0.603s,PASSED
+"selectOptionByLabel(findTestObject(""ReservationTable/Date""), ""tomorrow"", false)",Chrome 88.0.4324.190,,,2021-03-09 19:44:09,2021-03-09 19:44:09,0.314s,PASSED
+"selectOptionByLabel(findTestObject(""ReservationTable/Time""), ""07:45"", false)",Chrome 88.0.4324.190,,,2021-03-09 19:44:09,2021-03-09 19:44:10,0.499s,PASSED
+"click(findTestObject(""ReservationTable/Next""))",Chrome 88.0.4324.190,,,2021-03-09 19:44:10,2021-03-09 19:44:10,0.305s,PASSED
+delay(3),Chrome 88.0.4324.190,,,2021-03-09 19:44:10,2021-03-09 19:44:13,3.009s,PASSED
+"click(findTestObject(""ReservationTable/AddDetails""))",Chrome 88.0.4324.190,,,2021-03-09 19:44:13,2021-03-09 19:44:14,0.281s,PASSED
+"waitForElementVisible(findTestObject(""ReservationTable/FirstName""), TimeOut)",Chrome 88.0.4324.190,,,2021-03-09 19:44:14,2021-03-09 19:44:15,1.358s,PASSED
+"setText(findTestObject(""ReservationTable/FirstName""), Name)",Chrome 88.0.4324.190,,,2021-03-09 19:44:15,2021-03-09 19:44:15,0.488s,PASSED
+"setText(findTestObject(""ReservationTable/LastName""), LastName)",Chrome 88.0.4324.190,,,2021-03-09 19:44:15,2021-03-09 19:44:16,0.371s,PASSED
+"setText(findTestObject(""ReservationTable/E-mail""), Email)",Chrome 88.0.4324.190,,,2021-03-09 19:44:16,2021-03-09 19:44:16,0.494s,PASSED
+"setText(findTestObject(""ReservationTable/Phone""), Phone)",Chrome 88.0.4324.190,,,2021-03-09 19:44:16,2021-03-09 19:44:17,0.455s,PASSED
+"click(findTestObject(""ReservationTable/SaveBtn""))",Chrome 88.0.4324.190,,,2021-03-09 19:44:17,2021-03-09 19:44:17,0.321s,PASSED
+"click(findTestObject(""ReservationTable/PlaceTableReservationNow""))",Chrome 88.0.4324.190,,,2021-03-09 19:44:17,2021-03-09 19:44:20,2.588s,FAILED

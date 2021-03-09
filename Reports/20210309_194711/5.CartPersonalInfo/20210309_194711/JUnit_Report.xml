@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="5.CartPersonalInfo" time="94.427" tests="4" failures="0" skips="0" errors="0">
+   <testsuite name="5.CartPersonalInfo" tests="4" failures="0" errors="0" time="94.427" skips="0" timestamp="2021-03-09 19:47:16" hostname="joker - DESKTOP-ASL0OOF" id="Test Suites/5.CartPersonalInfo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_194711\\5.CartPersonalInfo\\20210309_194711"/>
+         <property name="logFiles" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_194711\\5.CartPersonalInfo\\20210309_194711\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="joker - DESKTOP-ASL0OOF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.190"/>
+         <property name="hostAddress" value="192.168.0.17"/>
+         <property name="sessionId" value="5a3c06b4cba6d5f85b3bbdad13ca9144"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/5.CartPersonalInfo/TC-Cart-022" time="25.519" classname="Test Cases/5.CartPersonalInfo/TC-Cart-022" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:47:17 - [TEST_CASE][PASSED] - Test Cases/5.CartPersonalInfo/TC-Cart-022: Test Cases/5.CartPersonalInfo/TC-Cart-022
+
+2021-03-09 19:47:18 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:47:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:47:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:47:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:47:25 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:47:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:47:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:47:26 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:47:26 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/SeeMenuAndOrder")): Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:47:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:47:31 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): null
+
+2021-03-09 19:47:32 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Cart")): Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:47:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/AddDetails"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:47:33 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/AddDetails")): Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:47:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/Form/Name"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:47:34 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Name"), Name_invalid): Text '@2#3$4' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:47:35 - [MESSAGE][PASSED] - Text '@2#3$4' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:47:35 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/LastName"), LastName): Text 'tifo' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:47:35 - [MESSAGE][PASSED] - Text 'tifo' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:47:35 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Email"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:47:36 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:47:36 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Phone"), Phone): Text '060123456' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:47:36 - [MESSAGE][PASSED] - Text '060123456' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:47:36 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Form/SaveBtn")): Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:47:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-09 19:47:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-09 19:47:42 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Close")): Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:47:42 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-03-09 19:47:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:47:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5.CartPersonalInfo/TC-Cart-023" time="21.723" classname="Test Cases/5.CartPersonalInfo/TC-Cart-023" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:47:43 - [TEST_CASE][PASSED] - Test Cases/5.CartPersonalInfo/TC-Cart-023: Test Cases/5.CartPersonalInfo/TC-Cart-023
+
+2021-03-09 19:47:44 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:47:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:47:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:47:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:47:48 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:47:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:47:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:47:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:47:49 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/SeeMenuAndOrder")): Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:47:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:47:52 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:47:52 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): null
+
+2021-03-09 19:47:54 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Cart")): Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:47:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/AddDetails"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:47:55 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:47:55 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/AddDetails")): Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:47:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/Form/Name"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:47:56 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:47:56 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Name"), Name): Text 'foti' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:47:57 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/LastName"), LastName_invalid): Text '@2#3$4' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:47:57 - [MESSAGE][PASSED] - Text '@2#3$4' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Email"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:47:58 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Phone"), Phone): Text '060123456' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:47:58 - [MESSAGE][PASSED] - Text '060123456' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:47:58 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Form/SaveBtn")): Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:47:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-09 19:48:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-09 19:48:04 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Close")): Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:48:04 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-03-09 19:48:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:48:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5.CartPersonalInfo/TC-Cart-024" time="21.947" classname="Test Cases/5.CartPersonalInfo/TC-Cart-024" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:48:05 - [TEST_CASE][PASSED] - Test Cases/5.CartPersonalInfo/TC-Cart-024: Test Cases/5.CartPersonalInfo/TC-Cart-024
+
+2021-03-09 19:48:05 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:48:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:48:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:48:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:48:10 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:48:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:48:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:48:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:48:11 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/SeeMenuAndOrder")): Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:48:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:48:15 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): null
+
+2021-03-09 19:48:16 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Cart")): Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:48:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/AddDetails"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:48:17 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/AddDetails")): Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:48:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/Form/Name"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:48:18 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:48:18 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Name"), Name): Text 'foti' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:48:18 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:48:18 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/LastName"), LastName): Text 'tifo' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:48:19 - [MESSAGE][PASSED] - Text 'tifo' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Email"), EmailInvalid): Text 'fotigmail@com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:48:19 - [MESSAGE][PASSED] - Text 'fotigmail@com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Phone"), Phone): Text '060123456' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:48:20 - [MESSAGE][PASSED] - Text '060123456' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:48:20 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Form/SaveBtn")): Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:48:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SeeMenuAndOrder/Form/Please_Email"), "Please insert a valid email."): Actual text and expected text of test object 'Object Repository/SeeMenuAndOrder/Form/Please_Email' are matched.
+
+2021-03-09 19:48:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SeeMenuAndOrder/Form/Please_Email' are matched.
+
+2021-03-09 19:48:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-09 19:48:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-09 19:48:26 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Close")): Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:48:26 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-03-09 19:48:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:48:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5.CartPersonalInfo/TC-Cart-025(with keywords)" time="23.138" classname="Test Cases/5.CartPersonalInfo/TC-Cart-025(with keywords)" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:48:27 - [TEST_CASE][PASSED] - Test Cases/5.CartPersonalInfo/TC-Cart-025(with keywords): Test Cases/5.CartPersonalInfo/TC-Cart-025(with keywords)
+
+2021-03-09 19:48:27 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser(): com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-03-09 19:48:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:48:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:48:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.banatbar.rs/en'
+
+2021-03-09 19:48:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:48:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:48:33 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-03-09 19:48:33 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/SeeMenuAndOrder")): Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/SeeMenuAndOrder' is clicked on
+
+2021-03-09 19:48:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:48:38 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/iFrame-SeeMenuAndOrder' is visible
+
+2021-03-09 19:48:38 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("SeeMenuAndOrder/iFrame-SeeMenuAndOrder"), TimeOut): null
+
+2021-03-09 19:48:39 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Cart")): Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Cart' is clicked on
+
+2021-03-09 19:48:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/AddDetails"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:48:40 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/AddDetails' is present
+
+2021-03-09 19:48:40 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/AddDetails")): Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/AddDetails' is clicked on
+
+2021-03-09 19:48:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SeeMenuAndOrder/Form/Name"), TimeOut): Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:48:41 - [MESSAGE][PASSED] - Object 'Object Repository/SeeMenuAndOrder/Form/Name' is present
+
+2021-03-09 19:48:41 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Name"), Name): Text 'foti' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:48:42 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/SeeMenuAndOrder/Form/Name'
+
+2021-03-09 19:48:42 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/LastName"), LastName): Text 'tifo' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:48:42 - [MESSAGE][PASSED] - Text 'tifo' is set on object 'Object Repository/SeeMenuAndOrder/Form/LastName'
+
+2021-03-09 19:48:42 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Email"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:48:43 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/SeeMenuAndOrder/Form/Email'
+
+2021-03-09 19:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("SeeMenuAndOrder/Form/Phone"), Phone_invalid): Text '!a@s#d$f' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:48:43 - [MESSAGE][PASSED] - Text '!a@s#d$f' is set on object 'Object Repository/SeeMenuAndOrder/Form/Phone'
+
+2021-03-09 19:48:43 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Form/SaveBtn")): Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Form/SaveBtn' is clicked on
+
+2021-03-09 19:48:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SeeMenuAndOrder/Form/Please_phone"), "Please insert a valid phone number."): Actual text and expected text of test object 'Object Repository/SeeMenuAndOrder/Form/Please_phone' are matched.
+
+2021-03-09 19:48:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SeeMenuAndOrder/Form/Please_phone' are matched.
+
+2021-03-09 19:48:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-09 19:48:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-09 19:48:49 - [TEST_STEP][PASSED] - click(findTestObject("SeeMenuAndOrder/Close")): Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SeeMenuAndOrder/Close' is clicked on
+
+2021-03-09 19:48:49 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-03-09 19:48:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-03-09 19:48:50 - [MESSAGE][PASSED] - Browser is closed
+
+2021-03-09 19:48:50 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-09 19:47:16 - [TEST_SUITE][PASSED] - 5.CartPersonalInfo: Test Cases/5.CartPersonalInfo/TC-Cart-025(with keywords)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

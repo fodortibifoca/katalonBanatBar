@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3.TableReservationPage" time="94.633" tests="2" failures="1" skips="0" errors="0">
+   <testsuite name="3.TableReservationPage" tests="2" failures="1" errors="0" time="94.633" skips="0" timestamp="2021-03-09 19:41:12" hostname="joker - DESKTOP-ASL0OOF" id="Test Suites/3.TableReservationPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_194107\\3.TableReservationPage\\20210309_194107"/>
+         <property name="logFiles" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_194107\\3.TableReservationPage\\20210309_194107\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_194107\\3.TableReservationPage\\20210309_194107\\1615315337908.png"/>
+         <property name="hostName" value="joker - DESKTOP-ASL0OOF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.190"/>
+         <property name="hostAddress" value="192.168.0.17"/>
+         <property name="sessionId" value="f19bdd496d917b10ac080a055223d689"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/3.TableReservationPage/TC-TableReservation-017" time="65.303" classname="Test Cases/3.TableReservationPage/TC-TableReservation-017" status="FAILED">
+         <failure type="FAILED" message="Test Cases/3.TableReservationPage/TC-TableReservation-017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at TC-TableReservation-017.run(TC-TableReservation-017:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615315267011.run(TempTestSuite1615315267011.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ReservationTable/NumberOfPeople' located by '//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-09 19:41:13 - [TEST_CASE][FAILED] - Test Cases/3.TableReservationPage/TC-TableReservation-017: Test Cases/3.TableReservationPage/TC-TableReservation-017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at TC-TableReservation-017.run(TC-TableReservation-017:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615315267011.run(TempTestSuite1615315267011.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ReservationTable/NumberOfPeople' located by '//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-09 19:41:14 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:41:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:41:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:41:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:41:21 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:41:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:41:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:41:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:41:22 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/TableReservation")): Object: 'Object Repository/NavigationBar/TableReservation' is clicked on
+
+2021-03-09 19:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/TableReservation' is clicked on
+
+2021-03-09 19:41:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("NavigationBar/iFrame-TableReservation"), TimeOut): Object 'Object Repository/NavigationBar/iFrame-TableReservation' is visible
+
+2021-03-09 19:41:46 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/iFrame-TableReservation' is visible
+
+2021-03-09 19:41:46 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("NavigationBar/iFrame-TableReservation"), TimeOut): null
+
+2021-03-09 19:41:46 - [TEST_STEP][FAILED] - selectOptionByIndex(findTestObject("ReservationTable/NumberOfPeople"), 2): Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at TC-TableReservation-017.run(TC-TableReservation-017:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615315267011.run(TempTestSuite1615315267011.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ReservationTable/NumberOfPeople' located by '//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at Script1614846046911.run(Script1614846046911.groovy:32)
+	... 13 more
+)
+
+2021-03-09 19:42:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-09 19:42:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/ReservationTable/NumberOfPeople'. Try using Self-healing.
+
+2021-03-09 19:42:17 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+2021-03-09 19:42:17 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2021-03-09 19:42:19 - [MESSAGE][FAILED] - Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at TC-TableReservation-017.run(TC-TableReservation-017:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615315267011.run(TempTestSuite1615315267011.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ReservationTable/NumberOfPeople' located by '//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at Script1614846046911.run(Script1614846046911.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\joker\\git\\katalonBanatBar\\Reports\\20210309_194107\\3.TableReservationPage\\20210309_194107\\1615315337908.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-09 19:41:13 - [TEST_CASE][FAILED] - Test Cases/3.TableReservationPage/TC-TableReservation-017: Test Cases/3.TableReservationPage/TC-TableReservation-017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at TC-TableReservation-017.run(TC-TableReservation-017:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615315267011.run(TempTestSuite1615315267011.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ReservationTable/NumberOfPeople' located by '//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3.TableReservationPage/TC-TableReservation-018" time="26.914" classname="Test Cases/3.TableReservationPage/TC-TableReservation-018" status="PASSED">
+         <system-out><![CDATA[2021-03-09 19:42:19 - [TEST_CASE][PASSED] - Test Cases/3.TableReservationPage/TC-TableReservation-018: Test Cases/3.TableReservationPage/TC-TableReservation-018
+
+2021-03-09 19:42:19 - [TEST_STEP][PASSED] - openBrowser("https://www.banatbar.rs/en"): Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:42:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-09 19:42:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-09 19:42:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-09 19:42:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.banatbar.rs/en'
+
+2021-03-09 19:42:25 - [TEST_STEP][PASSED] - waitForPageLoad(TimeOut): Wait for page load successfully
+
+2021-03-09 19:42:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-03-09 19:42:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-09 19:42:26 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-09 19:42:26 - [TEST_STEP][PASSED] - click(findTestObject("NavigationBar/TableReservation")): Object: 'Object Repository/NavigationBar/TableReservation' is clicked on
+
+2021-03-09 19:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/TableReservation' is clicked on
+
+2021-03-09 19:42:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("NavigationBar/iFrame-TableReservation"), TimeOut): Object 'Object Repository/NavigationBar/iFrame-TableReservation' is visible
+
+2021-03-09 19:42:32 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/iFrame-TableReservation' is visible
+
+2021-03-09 19:42:32 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("NavigationBar/iFrame-TableReservation"), TimeOut): null
+
+2021-03-09 19:42:32 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("ReservationTable/NumberOfPeople"), 2): All options with index in [2] are selected on object 'Object Repository/ReservationTable/NumberOfPeople'
+
+2021-03-09 19:42:33 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ReservationTable/NumberOfPeople'
+
+2021-03-09 19:42:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ReservationTable/Date"), "tomorrow", false): All options with label 'tomorrow' are selected in object 'Object Repository/ReservationTable/Date' 
+
+2021-03-09 19:42:33 - [MESSAGE][PASSED] - All options with label 'tomorrow' are selected in object 'Object Repository/ReservationTable/Date' 
+
+2021-03-09 19:42:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ReservationTable/Time"), "07:45", false): All options with label '07:45' are selected in object 'Object Repository/ReservationTable/Time' 
+
+2021-03-09 19:42:33 - [MESSAGE][PASSED] - All options with label '07:45' are selected in object 'Object Repository/ReservationTable/Time' 
+
+2021-03-09 19:42:33 - [TEST_STEP][PASSED] - click(findTestObject("ReservationTable/Next")): Object: 'Object Repository/ReservationTable/Next' is clicked on
+
+2021-03-09 19:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ReservationTable/Next' is clicked on
+
+2021-03-09 19:42:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-09 19:42:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-09 19:42:37 - [TEST_STEP][PASSED] - click(findTestObject("ReservationTable/AddDetails")): Object: 'Object Repository/ReservationTable/AddDetails' is clicked on
+
+2021-03-09 19:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ReservationTable/AddDetails' is clicked on
+
+2021-03-09 19:42:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("ReservationTable/FirstName"), TimeOut): Object 'Object Repository/ReservationTable/FirstName' is visible
+
+2021-03-09 19:42:38 - [MESSAGE][PASSED] - Object 'Object Repository/ReservationTable/FirstName' is visible
+
+2021-03-09 19:42:38 - [TEST_STEP][PASSED] - setText(findTestObject("ReservationTable/FirstName"), Name): Text 'foti' is set on object 'Object Repository/ReservationTable/FirstName'
+
+2021-03-09 19:42:38 - [MESSAGE][PASSED] - Text 'foti' is set on object 'Object Repository/ReservationTable/FirstName'
+
+2021-03-09 19:42:38 - [TEST_STEP][PASSED] - setText(findTestObject("ReservationTable/LastName"), LastName): Text 'tifo' is set on object 'Object Repository/ReservationTable/LastName'
+
+2021-03-09 19:42:39 - [MESSAGE][PASSED] - Text 'tifo' is set on object 'Object Repository/ReservationTable/LastName'
+
+2021-03-09 19:42:39 - [TEST_STEP][PASSED] - setText(findTestObject("ReservationTable/E-mail"), Email): Text 'foti@gmail.com' is set on object 'Object Repository/ReservationTable/E-mail'
+
+2021-03-09 19:42:39 - [MESSAGE][PASSED] - Text 'foti@gmail.com' is set on object 'Object Repository/ReservationTable/E-mail'
+
+2021-03-09 19:42:39 - [TEST_STEP][PASSED] - setText(findTestObject("ReservationTable/Phone"), Phone): Text '060123456' is set on object 'Object Repository/ReservationTable/Phone'
+
+2021-03-09 19:42:40 - [MESSAGE][PASSED] - Text '060123456' is set on object 'Object Repository/ReservationTable/Phone'
+
+2021-03-09 19:42:40 - [TEST_STEP][PASSED] - click(findTestObject("ReservationTable/SaveBtn")): Object: 'Object Repository/ReservationTable/SaveBtn' is clicked on
+
+2021-03-09 19:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ReservationTable/SaveBtn' is clicked on
+
+2021-03-09 19:42:40 - [TEST_STEP][PASSED] - click(findTestObject("ReservationTable/PlaceTableReservationNow")): Object: 'Object Repository/ReservationTable/PlaceTableReservationNow' is clicked on
+
+2021-03-09 19:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ReservationTable/PlaceTableReservationNow' is clicked on
+
+2021-03-09 19:42:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-09 19:42:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-09 19:42:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-09 19:42:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-09 19:41:12 - [TEST_SUITE][FAILED] - 3.TableReservationPage: Test Cases/3.TableReservationPage/TC-TableReservation-017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at TC-TableReservation-017.run(TC-TableReservation-017:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615315267011.run(TempTestSuite1615315267011.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ReservationTable/NumberOfPeople' located by '//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-03-09 19:41:12 - [TEST_SUITE][FAILED] - 3.TableReservationPage: Test Cases/3.TableReservationPage/TC-TableReservation-017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '2' of object 'Object Repository/ReservationTable/NumberOfPeople'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1132)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at TC-TableReservation-017.run(TC-TableReservation-017:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615315267011.run(TempTestSuite1615315267011.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ReservationTable/NumberOfPeople' located by '//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-reservation//div[@class='later-selects']/div[1]/div[@class='select-container']/select' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
