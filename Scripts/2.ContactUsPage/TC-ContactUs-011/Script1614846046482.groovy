@@ -37,8 +37,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('ContactUsPage/SubmitBtn'))
 
-WebUI.verifyElementText(findTestObject('ContactUsPage/ImeObavezno'), 'Ime nije validno')
-
 WebUI.delay(2)
 
 WebUI.closeBrowser()
