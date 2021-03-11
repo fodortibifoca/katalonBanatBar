@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test Case is using data from localy stored Excel file</description>
+   <name>TC-Cart-026(DataDriven)</name>
+   <tag>Excel Data</tag>
+   <comment></comment>
+   <testCaseGuid>2c20606a-2a03-48d6-97de-8a019bec494b</testCaseGuid>
+</TestCaseEntity>

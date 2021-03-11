@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description>invalid name</description>
-   <name>Uncorrect Name</name>
+   <description>BanatBarExcelSheet</description>
+   <name>BanatBarExcelSheet</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>9851b2f5-8ba1-4df7-8ef2-d82313353028</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataFileGUID>09852cdf-6758-45f7-ba92-61f06c4d5051</dataFileGUID>
+   <dataSourceUrl>C:\Users\joker\Katalon Studio\BanatBarContactDetails.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>TestSheet</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
