@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons//div[.='490,00 RSD']</value>
+         <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons//div[.='490,00 RSD']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons//div[.='490,00 RSD']</value>
+      <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons//div[.='490,00 RSD']
+</value>
    </webElementProperties>
 </WebElementEntity>

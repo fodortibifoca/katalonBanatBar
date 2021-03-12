@@ -47,7 +47,7 @@ WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/SlaboPecen'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/Pice'))
+WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/Svetionik'))
 
 WebUI.delay(3)
 

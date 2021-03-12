@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Drink</description>
-   <name>Pice</name>
+   <description>Kecap +20</description>
+   <name>510</name>
    <tag></tag>
-   <elementGuidId>25735561-8aa6-4643-911c-f9e14ea03e60</elementGuidId>
+   <elementGuidId>a50b93a8-946c-472c-b702-c67abe3893ef</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='options-label-cell' and text()='Svetionik']</value>
+         <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons//div[.='510,00 RSD']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='options-label-cell' and text()='Svetionik']</value>
+      <value>//ui-view[@id='fb-content']/app-restaurant/div/ui-view/app-menu/ui-view/app-addons//div[.='510,00 RSD']</value>
    </webElementProperties>
 </WebElementEntity>

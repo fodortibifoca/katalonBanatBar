@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reading text from Test Object</description>
+   <name>TC-OrderMeal-027(JAVA code)</name>
+   <tag>String Text</tag>
+   <comment></comment>
+   <testCaseGuid>c7e416d0-6aff-414d-ade2-ab8273176274</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5bbff1bc-dbc3-4e6f-8a26-07df27240f17</id>
+      <masked>false</masked>
+      <name>cenaSaRsdBurger</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d97004af-5cd8-4a80-859d-2fb366b63dd7</id>
+      <masked>false</masked>
+      <name>kecapSaRsd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>597dd0ca-a14c-415e-8fe4-f1398f807b9c</id>
+      <masked>false</masked>
+      <name>duploMesoSaRsd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51a54b35-8de7-44f0-bf8f-22fd99b68852</id>
+      <masked>false</masked>
+      <name>svetionikSaRsd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8fe6dcbd-fba2-4867-bcbc-0e59551ba1ad</id>
+      <masked>false</masked>
+      <name>cenaObrokaSaBanatBara</name>
+   </variable>
+</TestCaseEntity>
