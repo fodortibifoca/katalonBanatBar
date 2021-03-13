@@ -40,4 +40,11 @@
       <masked>false</masked>
       <name>cenaObrokaSaBanatBara</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bce3a26d-c390-410c-925c-67bd73f63279</id>
+      <masked>false</masked>
+      <name>izracunataCenaObrokaSaNulomSaRsd</name>
+   </variable>
 </TestCaseEntity>

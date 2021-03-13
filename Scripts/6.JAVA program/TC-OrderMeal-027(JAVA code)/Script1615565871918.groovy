@@ -37,7 +37,7 @@ WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Dodaci/490'), Global
 // 1. cena Burgera
 cenaSaRsdBurger = WebUI.getText(findTestObject('SeeMenuAndOrder/Dodaci/490'))
 
-System.out.println(cenaSaRsdBurger)
+System.out.println('Cena burgera je ---: ' + cenaSaRsdBurger)
 
 // Prevodjenje Varijable cenaSaRsdBurger u str
 String strBurger = cenaSaRsdBurger
@@ -45,96 +45,92 @@ String strBurger = cenaSaRsdBurger
 // nova Varijabla cenaSlobodnaBurger bez ",00 i RSD"
 String cenaSlobodnaBurger = strBurger.replaceAll('\\,00 RSD', '')
 
-System.out.println("Cena burgera je " + cenaSlobodnaBurger)
+System.out.println('Cena burgera je ---: ' + cenaSlobodnaBurger)
 
 // Konverzija Stringa u Integer
 int cenaBurgerInt = Integer.parseInt(cenaSlobodnaBurger)
 
-System.out.println("Cena Burgera integer je " + cenaBurgerInt)
+System.out.println('Cena Burgera integer je ---: ' + cenaBurgerInt)
 
 WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Dodaci/20'), GlobalVariable.TimeOut)
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/Kecap'))
 
 //2. cena Kecapa
-
 kecapSaRsd = WebUI.getText(findTestObject('SeeMenuAndOrder/Dodaci/20'))
 
-System.out.println("Cena kecapa sa + i ,00 " + kecapSaRsd)
+System.out.println('Cena kecapa sa + i ,00 ---: ' + kecapSaRsd)
 
 String strKecap = kecapSaRsd
 
-String kecapBezPlusa = strKecap.replaceAll("\\+", "")
+String kecapBezPlusa = strKecap.replaceAll('\\+', '')
 
-System.out.println("Bez + " + kecapBezPlusa)
+System.out.println('Bez + ---: ' + kecapBezPlusa)
 
 String strBezNula = kecapBezPlusa
 
-String kecapBezNula = strBezNula.replaceAll("\\,00", "")
+String kecapBezNula = strBezNula.replaceAll('\\,00', '')
 
-System.out.println("Bez ,00 " + kecapBezNula)
+System.out.println('Bez ,00 ---: ' + kecapBezNula)
 
 int cenaKecapInt = Integer.parseInt(kecapBezNula)
 
-System.out.println("Cena Kecapa integer je " + cenaKecapInt)
+System.out.println('Cena Kecapa integer je ---: ' + cenaKecapInt)
 
 WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Dodaci/200'), GlobalVariable.TimeOut)
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/DuploMeso'))
 
 //3. cena Duplog Mesa
-
 duploMesoSaRsd = WebUI.getText(findTestObject('SeeMenuAndOrder/Dodaci/200'))
 
-System.out.println("Cena Duplog Mesa sa + i ,00 " + duploMesoSaRsd)
+System.out.println('Cena Duplog Mesa sa + i ,00 ---: ' + duploMesoSaRsd)
 
 String strDuploMeso = duploMesoSaRsd
 
-String duploMesoBezPlusa = strDuploMeso.replaceAll("\\+", "")
+String duploMesoBezPlusa = strDuploMeso.replaceAll('\\+', '')
 
-System.out.println("Bez + " + duploMesoBezPlusa)
+System.out.println('Bez + ---: ' + duploMesoBezPlusa)
 
-String strBezNula2 =  duploMesoBezPlusa
+String strBezNula2 = duploMesoBezPlusa
 
-String duploMesoBezNula = strBezNula2.replaceAll("\\,00", "")
+String duploMesoBezNula = strBezNula2.replaceAll('\\,00', '')
 
-System.out.println("Bez ,00 " + duploMesoBezNula)
+System.out.println('Bez ,00 ---: ' + duploMesoBezNula)
 
 int cenaDuploMesoInt = Integer.parseInt(duploMesoBezNula)
 
-System.out.println("Cena Duplog Mesa integer je " + cenaDuploMesoInt)
+System.out.println('Cena Duplog Mesa integer je ---: ' + cenaDuploMesoInt)
 
 WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Dodaci/280'), GlobalVariable.TimeOut)
 
 WebUI.click(findTestObject('SeeMenuAndOrder/Dodaci/Svetionik'))
 
 //3. cena Svetionika
-
 svetionikSaRsd = WebUI.getText(findTestObject('SeeMenuAndOrder/Dodaci/280'))
 
-System.out.println("Cena Svetionika sa + i ,00 " + svetionikSaRsd)
+System.out.println('Cena Svetionika sa + i ,00 ---: ' + svetionikSaRsd)
 
 String strSvetionik = svetionikSaRsd
 
-String svetionikBezPlusa = strSvetionik.replaceAll("\\+", "")
+String svetionikBezPlusa = strSvetionik.replaceAll('\\+', '')
 
-System.out.println("Bez + " + svetionikBezPlusa)
+System.out.println('Bez + ---: ' + svetionikBezPlusa)
 
-String strBezNula3 =   svetionikBezPlusa
+String strBezNula3 = svetionikBezPlusa
 
-String svetionikBezNula = strBezNula3.replaceAll("\\,00", "")
+String svetionikBezNula = strBezNula3.replaceAll('\\,00', '')
 
-System.out.println("Bez ,00 " + svetionikBezNula)
+System.out.println('Bez ,00 ---: ' + svetionikBezNula)
 
 int cenaSvetionikInt = Integer.parseInt(svetionikBezNula)
 
-System.out.println("Cena Svetionika integer je " + cenaSvetionikInt)
+System.out.println('Cena Svetionika integer je ---: ' + cenaSvetionikInt)
 
 // Izracunata cena kostanja narucenog obroka je
+izracunataCenaObroka = (((cenaBurgerInt + cenaKecapInt) + cenaDuploMesoInt) + cenaSvetionikInt)
 
-izracunataCenaObroka = cenaBurgerInt + cenaKecapInt + cenaDuploMesoInt + cenaSvetionikInt
-
-System.out.println("Izracunata cena kostanja obroka je " + izracunataCenaObroka)
+System.out.println('Izracunata cena kostanja obroka je ---: ' + izracunataCenaObroka)
 
 WebUI.waitForElementVisible(findTestObject('SeeMenuAndOrder/Dodaci/990'), GlobalVariable.TimeOut)
 
@@ -144,17 +140,27 @@ String strCenaObroka = cenaObrokaSaBanatBara
 
 String cenaObrokaSlobodna = strCenaObroka.replaceAll('\\,00 RSD', '')
 
-System.out.println("Cena obroka sa sajta Banat bara je " + cenaObrokaSlobodna)
+System.out.println('Cena obroka sa sajta Banat bara je ---: ' + cenaObrokaSlobodna)
 
 int cenaObrokaSaSajtaInt = Integer.parseInt(cenaObrokaSlobodna)
 
-System.out.println("Cena obroka preuzeta sa sajta (integer) je " + cenaObrokaSaSajtaInt)
+System.out.println('Cena obroka preuzeta sa sajta (integer) je ---: ' + cenaObrokaSaSajtaInt)
 
 if (izracunataCenaObroka == cenaObrokaSaSajtaInt) {
-      System.out.println("Izracunata cena obroka i cena preuzeta sa sajta je jednaka.");
-    } else {
-      System.out.println("Izracunata cena obroka i cena preuzeta sa sajta nije jednaka.");
-    } 
+    System.out.println('Izracunata cena obroka i cena preuzeta sa sajta je jednaka.')
+} else {
+    System.out.println('Izracunata cena obroka i cena preuzeta sa sajta nije jednaka.')
+}
+
+String izracunataCenaObrokaBezNulaBezRsd = izracunataCenaObroka
+
+System.out.println('Izracunata cena obroka bez nula I bez Rsd je ---: ' + izracunataCenaObrokaBezNulaBezRsd)
+
+String izracunataCenaObrokaSaNulomSaRsd = izracunataCenaObrokaBezNulaBezRsd.replaceAll('$', '\\,00 RSD')
+
+System.out.println('Izracunata cena obroka sa nulom I sa RSD ---: ' + izracunataCenaObrokaSaNulomSaRsd)
+
+WebUI.verifyElementText(findTestObject('SeeMenuAndOrder/Dodaci/990'), izracunataCenaObrokaSaNulomSaRsd)
 
 WebUI.delay(1)
 
